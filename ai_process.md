@@ -1,0 +1,1 @@
+Create an ai_process.md file documenting the ethical and productive use of Generative AI tools in your technical workflow.  This document is SPECFIC to AI use across the project.  
