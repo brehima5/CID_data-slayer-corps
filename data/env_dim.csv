@@ -1,0 +1,507 @@
+DBN,School Name,Enrollment,Instruction and Performance - Rating,Teaching Environment - School Percent Positive,Family Involvement - School Percent Positive,Economic Need Index,Percent in Temp Housing,Percent HRA Eligible,Average Student Attendance,Advising and Planning - School Percent Positive
+01M292,Orchard Collegiate Academy,258,Fair,0.88,0.81,0.911,0.19,0.837,0.818,0.89
+01M448,University Neighborhood High School,476,Excellent,0.95,0.82,0.719,0.097,0.639,0.915,0.93
+01M450,East Side Community School,377,Excellent,0.93,0.93,0.658,0.101,0.52,0.935,0.91
+01M539,"New Explorations into Science, Technology and Math High School",579,Excellent,0.93,0.93,0.436,0.029,0.366,0.941,0.89
+01M696,Bard High School Early College,570,Excellent,0.81,0.85,0.496,0.053,0.404,0.919,0.85
+02M047,47 The American Sign Language and English Secondary School,148,Excellent,0.57,0.84,0.843,0.169,0.764,0.87,0.79
+02M135,The Urban Assembly Early College High School of Emergency Medicine,360,Good,0.89,0.77,0.88,0.203,0.814,0.84,0.84
+02M139,Stephen T. Mather Building Arts & Craftsmanship High School,339,Fair,0.88,0.86,0.896,0.142,0.847,0.829,0.88
+02M260,The Clinton School,524,Excellent,0.8,0.82,0.314,0.029,0.244,0.948,0.78
+02M280,Manhattan Early College School for Advertising,389,Good,0.64,0.78,0.872,0.254,0.763,0.819,0.83
+02M282,Urban Assembly Maker Academy,537,Good,0.82,0.85,0.738,0.115,0.663,0.856,0.91
+02M288,Food and Finance High School,485,Good,0.71,0.93,0.839,0.165,0.769,0.857,0.87
+02M294,Essex Street Academy,367,Excellent,0.95,0.89,0.579,0.074,0.49,0.877,0.9
+02M296,High School of Hospitality Management,235,Fair,0.72,,0.917,0.383,0.723,0.709,0.85
+02M298,Pace High School,498,Fair,0.64,0.84,0.817,0.116,0.759,0.817,0.85
+02M300,"Urban Assembly School of Design and Construction, The",199,Fair,,0.81,0.881,0.246,0.784,0.797,
+02M303,"Facing History School, The",267,Good,0.92,0.84,0.906,0.251,0.798,0.789,0.87
+02M305,"Urban Assembly Academy of Government and Law, The",258,Fair,0.88,0.81,0.863,0.182,0.802,0.823,0.91
+02M308,Lower Manhattan Arts Academy,263,Fair,0.72,0.79,0.904,0.217,0.84,0.762,0.85
+02M316,"Urban Assembly School of Business for Young Women, the",125,Fair,1.0,0.73,,0.584,0.672,0.713,0.9
+02M374,Gramercy Arts High School,421,Good,0.68,0.9,0.729,0.09,0.641,0.884,0.89
+02M376,NYC iSchool,446,Excellent,0.93,0.83,0.57,0.065,0.516,0.92,0.92
+02M392,Manhattan Business Academy,437,Excellent,0.95,0.81,0.877,0.167,0.803,0.845,0.91
+02M393,Business Of Sports School,401,Fair,0.91,0.87,0.89,0.207,0.838,0.829,0.86
+02M395,A School Without Walls,207,,0.81,0.88,0.698,0.135,0.643,0.764,0.84
+02M399,The High School For Language And Diplomacy,132,Fair,0.94,0.86,0.884,0.379,0.629,0.78,0.9
+02M400,High School for Environmental Studies,995,Good,0.83,0.79,0.714,0.114,0.624,0.865,0.89
+02M407,Institute for Collaborative Education,267,Excellent,,,0.35,0.022,0.258,0.905,
+02M408,Professional Performing Arts High School,435,Excellent,0.87,0.88,0.495,0.071,0.395,0.905,0.81
+02M411,Baruch College Campus High School,479,Excellent,0.9,0.83,0.61,0.061,0.537,0.931,0.93
+02M412,N.Y.C. Lab School for Collaborative Studies,415,Excellent,0.85,0.88,0.525,0.048,0.46,0.932,0.89
+02M413,School of the Future High School,418,Excellent,0.87,0.85,0.485,0.026,0.419,0.916,0.78
+02M414,N.Y.C. Museum School,483,Excellent,0.83,0.81,0.515,0.039,0.449,0.942,0.86
+02M416,Eleanor Roosevelt High School,540,Excellent,0.86,0.87,0.511,0.05,0.444,0.949,0.91
+02M418,Millennium High School,687,Excellent,0.88,0.81,0.424,0.054,0.328,0.949,0.88
+02M419,Landmark High School,294,Fair,0.87,0.81,0.891,0.293,0.776,0.802,0.85
+02M420,High School for Health Professions and Human Services,1723,Good,0.82,0.78,0.813,0.089,0.747,0.902,0.84
+02M422,Quest to Learn,201,Fair,0.75,0.83,0.808,0.254,0.672,0.769,0.85
+02M425,Leadership and Public Service High School,267,Fair,0.84,0.82,0.847,0.251,0.7,0.775,0.86
+02M427,Manhattan Academy For Arts & Language,288,Fair,0.93,0.73,,0.767,0.764,0.699,0.86
+02M432,Murray Hill Academy,300,Good,0.97,0.77,0.797,0.103,0.727,0.856,0.88
+02M437,Hudson High School of Learning Technologies,187,Fair,0.75,0.83,0.855,0.267,0.765,0.813,0.87
+02M438,International High School at Union Square,361,Good,0.94,0.8,,0.609,0.637,0.855,0.9
+02M439,Manhattan Village Academy,393,Excellent,0.65,0.84,0.629,0.097,0.522,0.928,0.85
+02M449,Vanguard High School,398,Good,0.91,0.89,0.861,0.126,0.791,0.793,0.94
+02M459,Manhattan International High School,358,Good,0.94,0.86,,0.461,0.682,0.842,0.92
+02M475,Stuyvesant High School,3266,Excellent,0.88,0.8,0.458,0.039,0.371,0.961,0.89
+02M489,High School of Economics and Finance,645,Good,0.81,0.81,0.785,0.127,0.701,0.901,0.88
+02M500,Unity Center for Urban Technologies,256,Good,,,0.885,0.332,0.781,0.829,
+02M507,Urban Assembly Gateway School for Technology,405,Excellent,0.95,0.93,0.704,0.116,0.64,0.899,0.91
+02M519,Talent Unlimited High School,462,Excellent,0.89,0.89,0.676,0.123,0.574,0.886,0.89
+02M520,Murry Bergtraum High School for Business Careers,133,Needs Improvement,0.86,0.53,0.91,0.346,0.729,0.716,0.79
+02M529,Jacqueline Kennedy Onassis High School,316,Fair,0.94,0.91,0.891,0.275,0.778,0.814,0.91
+02M531,Repertory Company High School for Theatre Arts,204,Excellent,0.94,0.88,0.59,0.123,0.5,0.9,0.88
+02M533,Union Square Academy for Health Sciences,520,Good,0.83,0.81,0.859,0.115,0.79,0.938,0.88
+02M534,Harvest Collegiate High School,370,Fair,0.8,0.78,0.755,0.13,0.676,0.843,0.86
+02M542,Manhattan Bridges High School,395,Excellent,0.79,0.84,0.935,0.294,0.787,0.924,0.89
+02M543,New Design High School,415,Good,0.84,0.86,0.89,0.147,0.836,0.842,0.91
+02M545,High School for Dual Language and Asian Studies,363,Excellent,0.88,0.71,0.715,0.091,0.62,0.975,0.9
+02M546,Academy for Software Engineering,441,Good,0.77,0.85,0.854,0.175,0.787,0.833,0.86
+02M551,Urban Assembly New York Harbor School,518,Fair,0.72,0.85,0.56,0.06,0.488,0.892,0.89
+02M580,Richard R. Green High School of Teaching,407,Fair,0.89,0.83,0.578,0.125,0.496,0.845,0.91
+02M600,The High School of Fashion Industries,1446,Good,0.87,0.83,0.788,0.127,0.723,0.889,0.9
+02M605,Humanities Preparatory Academy,268,Good,0.99,0.69,0.682,0.112,0.601,0.881,0.87
+02M615,Chelsea Career and Technical Education High School,388,Fair,0.8,0.88,0.858,0.134,0.807,0.811,0.88
+02M630,Art and Design High School,1490,Excellent,0.85,0.89,0.469,0.053,0.379,0.905,0.86
+02M655,The High School for Climate Justice,380,Fair,0.9,0.76,0.92,0.226,0.861,0.724,0.87
+03M291,West End Secondary School,423,Excellent,,0.85,0.441,0.047,0.366,0.901,
+03M307,"Urban Assembly School for Media Studies, The",332,Fair,0.85,0.92,0.882,0.226,0.81,0.835,0.88
+03M402,The Urban Assembly School for Green Careers,323,Fair,0.49,0.88,0.927,0.186,0.845,0.789,0.85
+03M403,The Global Learning Collaborative,393,Fair,0.88,0.78,0.921,0.232,0.852,0.792,0.87
+03M415,Wadleigh Secondary School for the Performing & Visual Arts,274,Excellent,0.77,0.91,0.905,0.168,0.836,0.862,0.8
+03M417,Frank McCourt High School,410,Good,0.9,0.79,0.671,0.066,0.607,0.887,0.83
+03M479,Beacon High School,1378,Excellent,,0.76,0.562,0.049,0.502,0.942,
+03M485,Fiorello H. LaGuardia High School of Music & Art and Performing Arts,2248,Excellent,0.74,0.88,0.344,0.028,0.253,0.949,0.8
+03M492,"High School for Law, Advocacy and Community Justice",531,Fair,0.64,0.82,0.897,0.269,0.806,0.732,0.77
+03M494,High School of Arts and Technology,393,Fair,0.64,0.97,0.92,0.142,0.86,0.776,0.86
+03M541,Manhattan / Hunter Science High School,449,Excellent,0.76,0.79,0.699,0.085,0.606,0.951,0.86
+03M610,Young Women's Leadership School,268,Excellent,0.91,0.79,0.857,0.123,0.78,0.89,0.89
+03M859,Special Music School,176,Excellent,0.96,0.93,0.337,0.04,0.239,0.927,0.9
+03M860,Frederick Douglass Academy II Secondary School,263,Fair,0.72,0.8,,0.24,0.909,0.88,0.83
+04M372,Esperanza Preparatory Academy,347,Fair,0.79,0.84,,0.366,0.821,0.84,0.85
+04M435,Manhattan Center for Science and Mathematics,1655,Excellent,0.94,0.79,0.754,0.114,0.677,0.942,0.92
+04M495,Park East High School,399,Excellent,0.84,0.86,0.786,0.108,0.692,0.915,0.92
+04M555,Central Park East High School,480,Excellent,0.91,0.82,0.785,0.088,0.715,0.954,0.93
+04M680,"Heritage School, The",230,Fair,0.89,0.79,0.933,0.161,0.887,0.838,0.89
+05M148,Eagle Academy for Young Men of Harlem,177,Good,0.69,0.7,0.923,0.232,0.831,0.817,0.92
+05M157,The Urban Assembly School for Global Commerce,159,Needs Improvement,0.67,0.95,0.95,0.346,0.868,0.779,0.82
+05M304,Mott Hall High School,278,Good,0.89,0.83,0.936,0.327,0.766,0.785,0.87
+05M362,Columbia Secondary School,423,Excellent,0.57,0.82,0.541,0.04,0.421,0.942,0.85
+05M369,Urban Assembly School for the Performing Arts,175,Fair,0.68,0.81,0.908,0.211,0.851,0.782,0.83
+05M499,Frederick Douglass Academy,503,Fair,0.68,,0.904,0.167,0.845,0.902,0.85
+05M670,Thurgood Marshall Academy for Learning and Social Change,291,Fair,0.89,0.89,0.925,0.131,0.866,0.838,0.83
+05M692,"High School for Mathematics, Science and Engineering at City College",576,Excellent,0.83,0.76,0.385,0.031,0.3,0.957,0.9
+06M211,Inwood Early College for Health and Information Technologies,377,Fair,0.7,0.88,0.896,0.164,0.849,0.877,0.88
+06M293,City College Magnet School of the Arts,340,Excellent,,0.83,0.877,0.144,0.812,0.887,
+06M346,Community Health Academy of the Heights,348,Good,0.96,0.97,0.929,0.19,0.845,0.86,0.94
+06M348,Washington Heights Expeditionary Learning School,405,Good,0.73,0.94,0.899,0.128,0.844,0.848,0.88
+06M462,The College Academy,350,Excellent,0.94,0.86,,0.366,0.811,0.859,0.9
+06M463,High School for Media and Communications,363,Good,0.85,0.89,,0.496,0.791,0.802,0.87
+06M467,High School for Law and Public Service,502,Fair,0.83,1.0,,0.556,0.711,0.826,0.9
+06M468,High School for Health Careers and Sciences,425,Fair,0.77,0.99,0.947,0.369,0.793,0.846,0.87
+06M540,A. Philip Randolph Campus High School,1408,Fair,,0.72,0.914,0.222,0.833,0.818,
+06M552,Gregorio Luperon High School for Science and Mathematics,662,Excellent,0.93,0.91,,0.406,0.737,0.886,0.91
+07X221,South Bronx Preparatory: A College Board School,369,Good,0.83,0.81,,0.168,0.905,0.907,0.88
+07X223,The Laboratory School of Finance and Technology: X223,387,Excellent,0.91,0.89,0.935,0.155,0.879,0.903,0.92
+07X259,"H.E.R.O. High (Health, Education, and Research Occupations High School)",727,Fair,0.88,0.86,0.95,0.231,0.909,0.803,0.91
+07X334,International Community High School,357,Good,0.91,0.8,,0.529,0.672,0.834,0.93
+07X427,Community School for Social Justice,187,Fair,0.96,0.86,0.945,0.273,0.861,0.801,0.94
+07X473,Mott Haven Village Preparatory High School,193,Fair,0.85,0.89,,0.228,,0.827,0.87
+07X495,University Heights Secondary School,595,Excellent,0.98,0.96,0.852,0.126,0.77,0.918,0.93
+07X500,Hostos-Lincoln Academy of Science,305,Good,0.86,0.81,0.916,0.157,0.859,0.839,0.91
+07X522,Bronx Design and Construction Academy,222,Fair,0.85,0.85,0.93,0.23,0.896,0.875,0.88
+07X527,Bronx Leadership Academy II High School,375,Fair,0.79,0.91,,0.253,0.891,0.833,0.92
+07X548,Careers in Sports High School,453,Fair,0.93,0.8,,0.223,0.916,0.82,0.9
+07X551,The Urban Assembly Bronx Academy of Letters,296,Fair,0.88,0.89,,0.209,,0.796,0.85
+07X600,Alfred E. Smith Career and Technical Education High School,413,Good,0.78,0.93,0.944,0.223,0.877,0.817,0.88
+07X625,Bronx Legacy High School,258,Fair,0.63,0.82,0.937,0.252,0.876,0.807,0.85
+07X670,Health Opportunities High School,223,Fair,0.62,0.92,,0.296,0.857,0.807,0.83
+08X269,Bronx Studio School for Writers and Artists,314,Fair,0.78,0.84,0.942,0.156,0.901,0.854,0.83
+08X282,Women's Academy of Excellence,168,Fair,0.82,0.93,0.919,0.238,0.833,0.861,0.87
+08X293,Renaissance High School for Musical Theater and the Arts,383,Good,0.92,0.85,0.841,0.112,0.794,0.857,0.89
+08X312,Millennium Art Academy,345,Good,0.94,0.94,0.907,0.125,0.867,0.862,0.9
+08X320,Pelham Lab High School,286,Fair,0.91,0.9,0.914,0.154,0.829,0.809,0.86
+08X348,Schuylerville Preparatory High School,328,Fair,0.73,0.81,0.891,0.152,0.814,0.814,0.83
+08X349,Bronx River High School,416,Good,0.82,0.91,0.87,0.137,0.81,0.882,0.89
+08X367,"Archimedes Academy for Math, Science and Technology Applications",268,Fair,0.82,0.91,0.918,0.168,0.862,0.805,0.79
+08X376,Antonia Pantoja Preparatory Academy: A College Board School,258,Fair,0.96,0.94,0.946,0.155,0.88,0.818,0.85
+08X405,Herbert H. Lehman High School,1065,Fair,0.85,0.84,0.821,0.116,0.757,0.884,0.84
+08X432,Bronx Bridges High School,366,Good,0.88,0.95,,0.292,0.667,0.867,0.88
+08X452,Gotham Collaborative High School,295,Fair,0.92,0.84,,0.247,0.841,0.853,0.9
+08X530,Longwood Preparatory Academy,361,Fair,0.88,0.86,0.933,0.202,0.878,0.843,0.89
+08X558,Westchester Square Academy,406,Fair,0.71,0.79,0.888,0.138,0.815,0.83,0.83
+08X561,Bronx Compass High School,410,Fair,0.83,0.87,0.919,0.127,0.854,0.836,0.85
+08X636,Virtual Innovators Academy,248,,0.95,0.95,0.799,0.105,0.742,0.876,0.89
+09X227,Bronx Collegiate Academy,432,Good,0.98,0.74,0.932,0.185,0.85,0.859,0.9
+09X231,Eagle Academy for Young Men,319,Fair,0.76,0.87,0.903,0.113,0.831,0.938,0.8
+09X241,"Urban Assembly School for Applied Math and Science, The",303,Good,0.89,0.92,,0.119,0.908,0.799,0.87
+09X250,Eximius College Preparatory Academy: A College Board School,376,Good,0.88,0.72,0.947,0.181,0.886,0.861,0.88
+09X252,Mott Hall Bronx High School,314,Good,0.77,0.87,,0.197,0.911,0.844,0.87
+09X260,Bronx Center for Science and Mathematics,383,Excellent,0.81,0.83,0.903,0.146,0.828,0.895,0.89
+09X263,Validus Preparatory Academy,283,Needs Improvement,0.58,0.82,,0.23,0.901,0.796,0.85
+09X297,Morris Academy for Collaborative Studies,444,Good,0.91,0.94,,0.245,0.872,0.822,0.85
+09X324,Bronx Early College Academy for Teaching & Learning,267,Good,0.86,0.84,,0.202,0.903,0.878,0.83
+09X327,Comprehensive Model School Project M.S. 327,379,Good,0.87,0.9,0.925,0.153,0.865,0.871,0.86
+09X329,DreamYard Preparatory School,290,Good,0.69,0.97,,0.269,0.914,0.871,0.87
+09X365,Academy for Language and Technology,354,Excellent,0.88,0.97,,0.718,0.749,0.915,0.97
+09X403,Bronx International High School,431,Good,,0.88,,0.385,0.673,0.797,
+09X412,Bronx High School of Business,292,Fair,0.72,0.89,,0.277,0.89,0.822,0.8
+09X413,Bronx High School for Medical Science,259,Good,0.84,0.9,0.934,0.208,0.884,0.905,0.86
+09X505,"Bronx School for Law, Government and Justice",429,Fair,0.72,0.89,0.94,0.154,0.9,0.887,0.89
+09X517,Frederick Douglass Academy III Secondary School,229,Good,0.9,0.9,,0.197,0.873,0.901,0.94
+09X525,Bronx Leadership Academy High School,370,Fair,0.84,0.8,,0.319,0.905,0.858,0.84
+09X543,High School for Violin and Dance,111,Fair,0.79,0.8,,0.333,0.901,0.877,0.82
+09X564,Claremont International HS,395,Excellent,0.97,0.84,,0.466,0.699,0.888,0.92
+09X568,Young Women's Leadership School of the Bronx,309,Good,0.85,0.9,0.907,0.146,0.845,0.876,0.88
+10X141,Riverdale / Kingsbridge Academy (Middle School / High School 141),675,Good,0.86,0.86,0.583,0.076,0.514,0.925,0.84
+10X213,Bronx Engineering and Technology Academy,341,Good,0.96,0.81,0.915,0.214,0.827,0.81,0.91
+10X225,Theatre Arts Production Company School,340,Fair,0.74,0.87,,0.126,0.921,0.826,0.85
+10X228,Jonas Bronck Academy,140,,0.94,0.92,0.922,0.157,0.879,0.926,0.77
+10X237,"The Marie Curie High School for Medicine, Nursing, and Health Professions",266,Fair,0.84,0.78,0.931,0.173,0.868,0.83,0.9
+10X243,West Bronx Academy for the Future,348,Fair,0.65,0.96,,0.161,0.908,0.872,0.86
+10X264,Bronx Academy for Software Engineering (BASE),371,Good,0.83,0.79,0.932,0.191,0.863,0.81,0.85
+10X268,Kingsbridge International High School,206,Fair,0.67,0.83,,0.51,0.684,0.866,0.8
+10X284,Bronx School of Law and Finance,332,Good,0.94,0.91,,0.253,0.901,0.836,0.92
+10X342,International School for Liberal Arts,368,Good,0.87,0.88,,0.438,0.815,0.88,0.88
+10X351,Bronx Collaborative High School,435,Fair,0.58,,0.943,0.2,0.883,0.711,0.85
+10X353,World View High School,627,Good,0.78,0.93,0.908,0.217,0.812,0.875,0.87
+10X368,In-Tech Academy (M.S. / High School 368),536,Good,0.76,0.84,0.875,0.125,0.8,0.914,0.9
+10X374,Knowledge and Power Preparatory Academy International High School (Kappa),458,Good,0.83,0.84,0.923,0.159,0.867,0.841,0.89
+10X433,High School for Teaching and the Professions,327,Good,0.87,0.93,,0.287,0.875,0.886,0.88
+10X434,Belmont Preparatory High School,329,Good,0.9,0.8,0.938,0.155,0.888,0.851,0.84
+10X437,Fordham High School for the Arts,351,Excellent,0.9,0.97,0.8,0.094,0.729,0.911,0.9
+10X438,Fordham Leadership Academy,365,Good,,0.95,0.93,0.156,0.868,0.894,
+10X439,Bronx High School for Law and Community Service,360,Good,0.92,0.85,0.923,0.158,0.878,0.896,0.9
+10X440,DeWitt Clinton High School,1219,Good,0.86,0.92,0.893,0.193,0.832,0.905,0.89
+10X442,"Celia Cruz Bronx High School of Music, The",407,Excellent,0.88,0.87,0.83,0.128,0.752,0.949,0.9
+10X445,The Bronx High School of Science,2953,Excellent,0.86,0.78,0.454,0.036,0.376,0.957,0.87
+10X477,Marble Hill High School for International Studies,399,Excellent,0.79,0.82,0.922,0.291,0.812,0.92,0.88
+10X524,Crotona International High School,357,Good,0.91,0.87,,0.412,0.675,0.882,0.87
+10X546,Bronx Theatre High School,219,Fair,0.9,0.85,0.944,0.247,0.886,0.774,0.94
+10X549,Discovery High School,383,Good,0.87,0.81,0.936,0.248,0.851,0.911,0.82
+10X565,High School for Energy and Technology,325,Good,0.78,0.92,0.941,0.182,0.886,0.851,0.78
+10X696,High School of American Studies at Lehman College,393,Excellent,0.86,0.84,0.396,0.046,0.303,0.959,0.87
+11X249,Bronx Health Sciences High School,338,Excellent,0.95,0.83,0.812,0.124,0.731,0.908,0.9
+11X265,Bronx Lab School,262,Good,0.97,0.98,0.913,0.237,0.836,0.839,0.98
+11X270,Academy for Scholarship and Entrepreneurship: A College Board School,437,Fair,0.86,0.84,0.847,0.121,0.755,0.868,0.87
+11X275,High School of Computers and Technology,472,Fair,0.95,0.77,0.864,0.125,0.773,0.861,0.87
+11X288,Collegiate Institute for Math and Science,562,Good,0.82,0.81,0.818,0.096,0.737,0.909,0.89
+11X290,Bronx Academy of Health Careers,306,Fair,0.9,0.83,0.885,0.288,0.788,0.905,0.86
+11X299,Astor Collegiate Academy,424,Fair,0.81,0.83,0.818,0.12,0.745,0.855,0.85
+11X418,Bronx High School for the Visual Arts,406,Fair,0.76,0.85,0.885,0.126,0.837,0.881,0.84
+11X455,Harry S Truman High School,1649,Fair,0.78,0.82,0.835,0.183,0.753,0.925,0.88
+11X508,Bronxdale High School,388,Fair,0.93,0.88,0.854,0.106,0.784,0.903,0.88
+11X509,High School of Language and Innovation,373,Good,0.88,0.88,,0.268,0.633,0.91,0.83
+11X513,New World High School,286,Excellent,0.88,0.89,0.941,0.22,0.755,0.916,0.89
+11X514,The Bronxwood Preparatory Academy,410,Good,0.83,0.9,0.856,0.117,0.817,0.931,0.86
+11X542,Pelham Preparatory Academy,449,Good,0.85,0.94,0.814,0.085,0.751,0.904,0.88
+11X544,High School for Contemporary Arts,295,Fair,0.71,0.98,0.924,0.203,0.858,0.815,0.8
+11X545,Bronx Aerospace High School,370,Fair,0.82,0.84,0.906,0.216,0.824,0.884,0.85
+12X242,Mott Hall V,356,Good,0.7,0.86,0.936,0.11,0.888,0.898,0.9
+12X248,"Metropolitan High School, The",177,Fair,0.91,0.78,,0.271,0.91,0.761,0.82
+12X251,Explorations Academy H.S.,247,Fair,0.73,0.83,,0.215,0.919,0.893,0.9
+12X267,Bronx Latin,296,Good,0.62,0.83,,0.162,0.909,0.861,0.83
+12X271,East Bronx Academy for the Future,412,Good,0.9,0.87,,0.218,0.888,0.837,0.89
+12X388,Pan American International High School at Monroe,344,Good,0.95,0.81,,0.413,0.599,0.879,0.93
+12X478,The Cinema School,303,Fair,0.72,0.92,0.915,0.145,0.855,0.842,0.81
+12X479,Bronx Career and College Preparatory High School,124,Needs Improvement,,0.77,0.946,0.202,0.919,0.735,
+12X511,Bronx Envision Academy,267,Fair,0.86,0.84,,0.236,0.865,0.825,0.85
+12X521,The Metropolitan Soundview High School,360,Fair,0.85,0.82,,0.178,0.894,0.88,0.83
+12X550,High School of World Cultures,376,Good,0.85,0.86,,0.338,0.649,0.896,0.89
+12X641,Bard High School Early College Bronx,247,Excellent,1.0,,0.723,0.101,0.615,0.932,0.83
+12X682,Fannie Lou Hamer Freedom High School,411,Excellent,0.82,0.93,,0.2,0.883,0.782,0.94
+12X684,Wings Academy,231,Fair,,0.81,,0.216,0.926,0.801,
+13K265,Dr. Susan S. McKinney Secondary School of the Arts,128,Fair,0.8,0.83,0.924,0.172,0.852,0.78,0.81
+13K350,Urban Assembly School of Music and Art,139,Good,0.96,0.94,0.84,0.223,0.734,0.791,0.92
+13K412,Brooklyn Community Arts & Media High School (BCAM),356,Good,0.79,0.93,0.884,0.171,0.826,0.84,0.88
+13K419,"Science Skills Center High School for Science, Technology and the Creative Arts",447,Excellent,0.73,0.83,0.822,0.181,0.729,0.927,0.77
+13K430,Brooklyn Technical High School,5848,Excellent,0.84,0.7,0.514,0.032,0.439,0.938,0.89
+13K439,Brooklyn International High School,308,Good,0.91,0.84,,0.386,0.695,0.862,0.9
+13K483,The Urban Assembly School for Law and Justice,410,Good,0.92,0.85,0.816,0.122,0.754,0.822,0.89
+13K527,Urban Assembly Institute of Math and Science for Young Women,250,Good,0.91,0.9,0.862,0.1,0.812,0.859,0.86
+13K594,Gotham Professional Arts Academy,223,Good,,0.87,0.857,0.166,0.789,0.792,
+13K595,Bedford Academy High School,338,Excellent,0.75,0.85,0.696,0.044,0.598,0.91,0.89
+13K605,George Westinghouse Career and Technical Education High School,558,Fair,0.7,0.85,0.824,0.156,0.742,0.876,0.82
+13K670,Benjamin Banneker Academy,852,Good,0.83,0.81,0.772,0.093,0.694,0.856,0.85
+13K674,"City Polytechnic High School of Engineering, Architecture, and Technology",442,Fair,0.61,0.85,0.753,0.086,0.674,0.869,0.87
+13K963,Design Works High School,162,,0.81,0.91,0.609,0.117,0.525,0.916,0.72
+14K071,Juan Morel Campos Secondary School,344,Fair,0.9,0.91,,0.25,0.846,0.833,0.9
+14K449,"Brooklyn Latin School, The",773,Excellent,0.94,0.76,0.52,0.025,0.44,0.932,0.85
+14K454,The Williamsburg High School of Art and Technology,425,Good,0.73,0.83,0.839,0.174,0.746,0.835,0.89
+14K474,PROGRESS High School for Professional Careers,422,Fair,0.8,0.96,0.929,0.268,0.763,0.878,0.88
+14K477,East Williamsburg Scholars Academy,489,Fair,0.79,0.82,0.949,0.344,0.71,0.861,0.84
+14K478,"The High School for Enterprise, Business and Technology",527,Fair,0.67,0.77,0.918,0.228,0.784,0.859,0.83
+14K488,Brooklyn Preparatory High School,590,Fair,0.79,0.86,0.854,0.137,0.776,0.914,0.91
+14K558,Williamsburg High School for Architecture and Design,624,Excellent,0.93,0.81,0.83,0.138,0.761,0.908,0.93
+14K561,Williamsburg Preparatory School,668,Good,0.8,0.84,0.851,0.138,0.774,0.849,0.83
+14K586,Lyons Community School,266,Fair,0.87,0.9,0.933,0.173,0.857,0.792,0.88
+14K610,A-Tech High School,440,Good,0.88,0.95,0.862,0.134,0.809,0.926,0.89
+14K614,Young Women's Leadership School of Brooklyn,165,Good,0.96,0.7,0.926,0.212,0.867,0.801,0.91
+14K685,El Puente Academy for Peace and Justice,182,Fair,0.83,0.91,0.95,0.198,0.83,0.74,0.9
+15K429,Digital Arts and Cinema Technology High School,295,Excellent,0.91,0.85,0.729,0.095,0.654,0.899,0.87
+15K448,Brooklyn Collaborative Studies,374,Good,,0.89,0.772,0.11,0.698,0.831,
+15K462,John Jay School for Law,451,Fair,0.51,0.82,0.866,0.166,0.803,0.867,0.82
+15K463,Cyberarts Studio Academy,267,Good,0.89,0.85,0.909,0.199,0.779,0.824,0.87
+15K464,Park Slope Collegiate,358,Good,0.87,,0.793,0.131,0.715,0.888,0.75
+15K497,The Boerum Hill School for International Studies,345,Fair,0.84,0.81,0.633,0.09,0.559,0.872,0.82
+15K519,Cobble Hill School of American Studies,322,Good,0.67,0.94,0.919,0.27,0.714,0.815,0.87
+15K592,Khalil Gibran International Academy,109,Fair,0.92,0.8,0.936,0.193,0.853,0.843,0.84
+15K656,Brooklyn High School of the Arts,889,Good,0.92,0.88,0.643,0.063,0.562,0.896,0.88
+15K667,Sunset Park High School,1349,Good,0.7,0.77,0.917,0.177,0.794,0.841,0.86
+15K684,Millennium Brooklyn HS,686,Excellent,0.95,0.86,0.57,0.038,0.499,0.918,0.88
+16K455,Boys and Girls High School,352,Needs Improvement,0.65,,0.928,0.241,0.852,0.803,0.84
+16K498,Brooklyn High School for Law and Technology,469,Fair,0.45,0.76,0.886,0.166,0.817,0.827,0.73
+16K688,The Brooklyn Academy of Global Finance,226,Fair,0.82,0.84,,0.261,0.814,0.79,0.86
+16K765,Nelson Mandela High School,136,Fair,0.56,0.95,0.888,0.25,0.772,0.848,0.78
+17K122,Pathways in Technology Early College High School (P-Tech),530,Fair,0.72,0.81,0.777,0.094,0.706,0.884,0.83
+17K382,Academy for College Preparation and Career Exploration: A College Board School,303,Good,0.86,1.0,0.866,0.251,0.759,0.952,0.9
+17K408,Academy of Hospitality and Tourism,407,Good,0.95,0.82,0.888,0.192,0.789,0.802,0.91
+17K524,International High School at Prospect Heights,338,Good,0.94,0.91,,0.376,0.692,0.848,0.89
+17K528,The High School for Global Citizenship,214,Fair,0.95,0.95,0.876,0.178,0.78,0.801,0.89
+17K537,High School for Youth and Community Development at Erasmus,513,Good,0.86,0.85,0.858,0.172,0.768,0.931,0.9
+17K539,High School for Service & Learning at Erasmus,246,Good,0.86,0.83,0.902,0.268,0.752,0.835,0.87
+17K543,"Science, Technology and Research Early College High School at Erasmus",423,Excellent,0.81,0.8,0.719,0.076,0.645,0.962,0.88
+17K546,High School for Public Service: Heroes of Tomorrow,371,Fair,0.86,0.84,0.812,0.194,0.722,0.854,0.88
+17K547,Brooklyn Academy of Science and the Environment,247,Good,0.94,0.9,0.812,0.178,0.725,0.91,0.84
+17K548,Brooklyn School for Music & Theatre,201,Fair,0.76,0.92,0.827,0.194,0.781,0.865,0.87
+17K590,Medgar Evers College Preparatory School,893,Excellent,,0.99,0.603,0.064,0.498,0.941,
+17K600,Clara Barton High School,1324,Fair,0.68,0.84,0.841,0.169,0.766,0.904,0.84
+17K745,Brooklyn Institute for Liberal Arts,482,Fair,0.79,0.87,0.822,0.176,0.718,0.86,0.85
+17K751,Academy for Health Careers,160,Needs Improvement,0.8,0.75,0.855,0.181,0.781,0.753,0.72
+18K563,It Takes a Village Academy,268,Fair,0.82,0.91,0.861,0.224,0.713,0.834,0.84
+18K566,Brooklyn Community High School for Excellence and Equity,253,Fair,0.82,0.95,0.839,0.237,0.664,0.885,0.89
+18K567,Brooklyn Theatre Arts High School,238,Fair,0.84,0.81,0.874,0.303,0.71,0.82,0.84
+18K569,Kurt Hahn Expeditionary Learning School,181,Good,,,0.869,0.238,0.773,0.801,
+18K576,Victory Collegiate High School,290,Fair,0.75,0.98,0.88,0.166,0.786,0.85,0.88
+18K617,High School for Innovation in Advertising and Media,386,Good,,,0.821,0.135,0.767,0.85,
+18K629,Cultural Academy for the Arts and Sciences,296,Good,0.96,0.84,0.813,0.145,0.73,0.858,0.91
+18K633,High School for Medical Professions,382,Fair,0.75,0.82,0.813,0.168,0.704,0.876,0.81
+18K637,Academy for Conservation and the Environment,433,Good,0.92,0.96,0.814,0.157,0.716,0.925,0.83
+18K642,Urban Action Academy,185,Needs Improvement,0.93,0.75,0.893,0.368,0.697,0.806,0.82
+19K404,Academy for Young Writers,283,Good,0.67,0.86,0.863,0.152,0.823,0.816,0.83
+19K409,East New York Family Academy,364,Good,0.85,0.85,0.859,0.17,0.783,0.849,0.86
+19K422,Spring Creek Community School,270,Fair,0.57,0.86,0.887,0.107,0.844,0.851,0.77
+19K502,FDNY - Captain Vernon A. Richard High School for Fire and Life Safety,418,Fair,0.91,0.81,0.92,0.249,0.852,0.8,0.88
+19K507,Performing Arts and Technology High School,411,Good,0.87,0.79,0.893,0.217,0.771,0.857,0.93
+19K510,World Academy for Total Community Health High School,207,Needs Improvement,0.79,0.8,0.929,0.304,0.744,0.755,0.86
+19K583,Multicultural High School,282,Good,0.83,0.86,,0.301,0.574,0.89,0.9
+19K615,Transit Tech Career and Technical Education High School,787,Good,0.85,0.83,0.833,0.158,0.742,0.782,0.84
+19K618,Academy of Innovative Technology,390,Good,0.68,0.88,0.821,0.108,0.726,0.894,0.91
+19K639,Brooklyn Lab School,455,Good,0.8,0.79,0.889,0.156,0.796,0.848,0.91
+19K659,Cypress Hills Collegiate Preparatory School,410,Good,0.81,0.85,0.871,0.207,0.737,0.879,0.88
+19K660,W. H. Maxwell Career and Technical Education High School,555,Fair,,0.77,0.935,0.268,0.877,0.759,
+19K683,School for Classics High School,356,Fair,0.61,0.84,,0.18,0.888,0.832,0.88
+19K764,The Urban Assembly School for Collaborative Healthcare,375,Fair,0.88,0.82,0.856,0.112,0.749,0.843,0.88
+19K953,The East New York Arts and Civics High School,136,Fair,0.86,0.77,0.935,0.184,0.882,0.789,0.85
+19K965,Bard High School Early College Brooklyn,146,,0.84,0.86,0.581,0.055,0.445,0.945,0.85
+20K445,New Utrecht High School,3212,Fair,0.85,0.74,0.813,0.075,0.699,0.883,0.85
+20K485,High School of Telecommunication Arts and Technology,1209,Good,0.81,0.81,0.804,0.058,0.744,0.915,0.84
+20K490,Fort Hamilton High School,4066,Good,0.88,0.74,0.77,0.09,0.667,0.889,0.87
+20K505,Franklin Delano Roosevelt High School,3412,Fair,0.76,0.73,0.884,0.091,0.767,0.869,0.85
+20K609,Urban Assembly School for Leadership and Empowerment,327,Good,0.82,0.75,0.896,0.119,0.847,0.875,0.8
+21K337,International High School at Lafayette,349,Good,0.84,0.78,,0.421,0.662,0.808,0.88
+21K344,Rachel Carson High School for Coastal Studies,622,Good,0.88,0.76,0.857,0.08,0.789,0.876,0.85
+21K348,High School of Sports Management,388,Fair,0.59,0.79,0.936,0.103,0.75,0.815,0.79
+21K410,Abraham Lincoln High School,2228,Good,0.92,0.79,0.861,0.121,0.776,0.843,0.88
+21K468,Kingsborough Early College School,426,Excellent,0.96,0.88,0.77,0.061,0.707,0.856,0.85
+21K525,Edward R. Murrow High School,3490,Fair,0.86,0.82,0.666,0.08,0.582,0.877,0.86
+21K540,John Dewey High School,2210,Fair,0.84,0.73,0.867,0.108,0.794,0.893,0.84
+21K559,Life Academy High School for Film and Music,195,Good,1.0,0.94,0.909,0.185,0.718,0.797,0.91
+21K572,Leaders High School,384,Excellent,0.89,0.86,0.851,0.07,0.792,0.856,0.89
+21K620,William E. Grady Career and Technical Education High School,644,Fair,0.89,0.81,0.847,0.096,0.783,0.821,0.85
+21K690,Brooklyn Studio Secondary School,515,Fair,0.74,0.84,0.84,0.122,0.757,0.904,0.8
+22K405,Midwood High School,3642,Excellent,0.81,0.75,0.702,0.049,0.636,0.917,0.86
+22K425,James Madison High School,4005,Good,0.88,0.78,0.693,0.089,0.6,0.886,0.88
+22K535,Leon M. Goldstein High School for the Sciences,953,Excellent,,,0.558,0.034,0.467,0.892,
+22K555,Brooklyn College Academy,635,Excellent,0.96,0.88,0.653,0.057,0.554,0.96,0.91
+22K611,Origins High School,480,Fair,0.8,0.84,0.899,0.129,0.819,0.849,0.84
+23K493,Brooklyn Collegiate: A College Board School,515,Fair,0.76,0.86,0.884,0.175,0.823,0.831,0.86
+23K514,Frederick Douglass Academy VII High School,298,Good,0.88,0.85,0.925,0.255,0.832,0.839,0.86
+23K644,Eagle Academy for Young Men II,431,Good,0.97,0.97,0.821,0.097,0.749,0.916,0.94
+23K697,Teachers Preparatory High School,182,Fair,0.72,0.92,,0.33,0.896,0.802,0.9
+24Q236,International High School for Health Sciences,295,Good,0.96,0.83,,0.502,0.525,0.897,0.94
+24Q264,Academy of Finance and Enterprise,863,Good,0.82,0.84,0.778,0.075,0.713,0.895,0.87
+24Q267,High School of Applied Communication,376,Fair,0.73,0.79,0.842,0.146,0.766,0.858,0.74
+24Q293,Civic Leadership Academy,565,Good,0.89,0.9,0.885,0.168,0.804,0.895,0.91
+24Q296,Pan American International High School,510,Excellent,0.98,0.96,,0.769,0.512,0.95,0.93
+24Q299,Bard High School Early College Queens,652,Excellent,0.86,0.85,0.571,0.06,0.492,0.939,0.88
+24Q455,Newtown High School,2088,Fair,0.92,0.81,0.892,0.192,0.662,0.873,0.9
+24Q485,Grover Cleveland High School,1716,Fair,0.84,0.8,0.844,0.187,0.682,0.833,0.85
+24Q520,Middle College High School at LaGuardia Community College,481,Excellent,0.89,0.86,0.775,0.071,0.711,0.927,0.93
+24Q530,International High School at LaGuardia Community College,509,Excellent,0.71,0.97,0.854,0.426,0.523,0.904,0.99
+24Q550,High School for Arts and Business,716,Excellent,0.92,0.79,0.835,0.13,0.767,0.892,0.89
+24Q560,"Robert F. Wagner, Jr. Secondary School for Arts and Technology",446,Good,0.63,0.82,0.759,0.085,0.706,0.872,0.82
+24Q585,Maspeth High School,1000,Excellent,0.89,0.78,0.734,0.073,0.66,0.9,0.84
+24Q600,Queens Technical High School,1290,Fair,0.86,0.8,0.842,0.099,0.788,0.911,0.92
+24Q610,Aviation Career & Technical Education High School,2080,Excellent,0.84,0.78,0.711,0.063,0.646,0.953,0.87
+25Q240,Veritas Academy,653,Fair,0.87,0.85,0.82,0.135,0.672,0.862,0.84
+25Q241,Queens High School for Language Studies,447,Excellent,0.86,0.81,0.819,0.092,0.709,0.911,0.94
+25Q252,"Queens School of Inquiry, The",351,Excellent,0.79,0.87,0.609,0.066,0.544,0.898,0.91
+25Q263,Flushing International High School,410,Excellent,0.95,0.83,,0.449,0.605,0.873,0.92
+25Q281,East-West School of International Studies,379,Excellent,0.9,0.81,0.791,0.061,0.699,0.928,0.86
+25Q285,World Journalism Preparatory: A College Board School,357,Good,0.87,0.82,0.498,0.045,0.417,0.881,0.8
+25Q425,John Bowne High School,2782,Fair,0.84,,0.827,0.122,0.691,0.869,0.85
+25Q460,Flushing High School,1634,Fair,0.63,0.76,0.908,0.193,0.722,0.855,0.83
+25Q525,Townsend Harris High School,1342,Excellent,0.85,0.86,0.485,0.034,0.412,0.943,0.9
+25Q670,Robert F. Kennedy Community High School,589,Good,0.77,0.84,0.732,0.095,0.645,0.872,0.83
+26Q315,Business Technology Early College High School,599,Excellent,0.88,0.85,0.646,0.09,0.578,0.897,0.93
+26Q415,Benjamin N. Cardozo High School,2882,Good,0.84,0.75,0.628,0.057,0.543,0.886,0.85
+26Q430,Francis Lewis High School,4577,Good,0.84,0.79,0.668,0.069,0.557,0.917,0.83
+26Q435,Martin Van Buren High School,1140,Fair,0.71,0.84,0.738,0.094,0.619,0.902,0.82
+26Q495,Bayside High School,2980,Excellent,0.79,0.77,0.646,0.075,0.556,0.922,0.8
+26Q566,"Queens High School of Teaching, Liberal Arts and the Sciences",841,Good,0.67,0.83,0.623,0.065,0.561,0.867,0.8
+27Q260,Frederick Douglass Academy VI High School,319,Fair,0.83,0.8,0.918,0.213,0.749,0.811,0.87
+27Q262,Channel View School for Research,845,Good,0.73,0.85,0.791,0.096,0.712,0.854,0.84
+27Q302,"Queens High School for Information, Research, and Technology",507,Excellent,0.87,0.79,0.884,0.085,0.813,0.845,0.91
+27Q308,Robert H. Goddard High School of Communication Arts and Technology,610,Excellent,0.84,0.87,0.713,0.051,0.661,0.9,0.93
+27Q309,Academy of Medical Technology: A College Board School,433,Fair,0.86,0.79,0.91,0.134,0.813,0.79,0.9
+27Q314,Epic High School - South,436,Fair,0.63,,0.759,0.083,0.683,0.884,0.88
+27Q323,Scholars' Academy,590,Excellent,0.85,0.9,0.475,0.02,0.397,0.928,0.87
+27Q324,Rockaway Park High School for Environmental Sustainability,233,Fair,0.75,0.71,,0.202,0.794,0.77,0.83
+27Q334,Epic High School - North,385,Good,,,0.818,0.073,0.719,0.866,
+27Q351,Rockaway Collegiate High School,282,Fair,0.84,0.8,0.916,0.209,0.809,0.77,0.88
+27Q400,August Martin High School,646,Good,0.74,0.83,0.784,0.193,0.676,0.838,0.8
+27Q475,Richmond Hill High School,1843,Good,0.73,0.8,0.837,0.098,0.721,0.904,0.86
+27Q480,John Adams High School,2428,Good,,0.82,0.8,0.124,0.682,0.861,
+27Q650,"High School for Construction Trades, Engineering and Architecture",1076,Excellent,0.88,0.8,0.682,0.035,0.628,0.91,0.88
+28Q157,J.H.S. 157 Stephen A. Halsey,7,,0.93,0.8,0.894,0.0,0.714,,0.87
+28Q167,Metropolitan Expeditionary Learning School,474,Good,0.93,0.85,0.668,0.049,0.593,0.885,0.77
+28Q284,York Early College Academy,327,Excellent,0.91,0.84,0.554,0.04,0.492,0.907,0.9
+28Q310,Queens Collegiate: A College Board School,455,Fair,0.65,0.87,0.779,0.121,0.648,0.885,0.83
+28Q325,Hillside Arts & Letters Academy,405,Good,0.9,0.81,0.804,0.16,0.672,0.824,0.91
+28Q328,High School for Community Leadership,492,Excellent,0.98,0.82,0.74,0.114,0.634,0.864,0.88
+28Q350,Jamaica Gateway to the Sciences,525,Good,0.61,0.79,0.776,0.124,0.67,0.894,0.85
+28Q440,Forest Hills High School,3415,Good,,,0.693,0.085,0.602,0.927,
+28Q505,Hillcrest High School,2352,Good,0.89,0.77,0.832,0.222,0.685,0.873,0.88
+28Q620,Thomas A. Edison Career and Technical Education High School,2138,Excellent,0.69,0.81,0.66,0.062,0.593,0.921,0.88
+28Q680,Queens Gateway to Health Sciences Secondary School,409,Excellent,0.66,0.84,0.613,0.059,0.54,0.935,0.82
+28Q686,Queens Metropolitan High School,1068,Good,0.77,0.83,0.581,0.071,0.473,0.908,0.92
+28Q687,Queens High School for the Sciences at York College,494,Excellent,0.5,0.75,0.5,0.02,0.433,0.966,0.86
+28Q690,High School for Law Enforcement and Public Safety,552,Fair,0.87,0.83,0.84,0.185,0.745,0.907,0.84
+28Q896,"Young Women's Leadership School, Queens",283,Excellent,0.75,0.84,0.747,0.106,0.678,0.899,0.81
+29Q243,Institute for Health Professions at Cambria Heights,462,Excellent,0.87,0.77,0.715,0.091,0.639,0.868,0.9
+29Q248,Queens Preparatory Academy,326,Fair,0.62,,0.795,0.166,0.663,0.872,0.82
+29Q259,Pathways College Preparatory School: A College Board School,461,Excellent,0.72,0.85,0.652,0.093,0.568,0.953,0.86
+29Q265,Excelsior Preparatory High School,478,Good,0.94,0.83,0.773,0.146,0.661,0.903,0.84
+29Q272,George Washington Carver High School for the Sciences,425,Fair,0.8,0.85,0.771,0.162,0.673,0.93,0.85
+29Q283,Preparatory Academy for Writers: A College Board School,349,Good,0.8,0.87,0.72,0.169,0.61,0.912,0.82
+29Q313,Benjamin Franklin High School for Finance & Information Technology,374,Good,0.81,0.87,0.747,0.136,0.639,0.856,0.86
+29Q326,Cambria Heights Academy,356,Good,0.91,0.87,0.745,0.11,0.674,0.866,0.87
+29Q327,Eagle Academy for Young Men III,326,Good,0.51,,0.697,0.12,0.635,0.983,0.86
+29Q492,"Mathematics, Science Research and Technology Magnet High School",512,Good,0.91,0.83,0.732,0.123,0.627,0.857,0.92
+29Q498,"Health, Arts, Robotics, and Technology High School",621,Good,,0.83,0.733,0.119,0.657,0.835,
+30Q258,Energy Tech High School,490,Good,0.77,0.88,0.801,0.092,0.729,0.914,0.85
+30Q286,"Young Women's Leadership School, Astoria",331,Excellent,,0.81,0.756,0.051,0.698,0.898,
+30Q301,Academy for Careers in Television and Film,548,Excellent,0.86,0.9,0.731,0.089,0.662,0.91,0.84
+30Q367,Motion Picture Technical High School,182,,0.85,0.9,0.783,0.104,0.709,0.902,0.84
+30Q417,Gotham Tech High School,271,,0.51,0.76,0.766,0.151,0.69,0.93,0.74
+30Q445,William Cullen Bryant High School,1979,Fair,0.69,,0.89,0.164,0.739,0.835,0.79
+30Q450,Long Island City High School,1632,Fair,0.69,0.73,0.9,0.244,0.8,0.845,0.83
+30Q501,Frank Sinatra School of the Arts High School,849,Excellent,0.83,0.87,0.357,0.025,0.269,0.91,0.86
+30Q502,Information Technology High School,781,Good,0.82,0.82,0.866,0.123,0.81,0.905,0.87
+30Q555,ATLAS,1161,Fair,0.8,0.76,,0.538,0.632,0.735,0.86
+30Q575,Academy of American Studies,1213,Excellent,,,0.587,0.046,0.525,0.904,
+30Q580,Baccalaureate School for Global Education,400,Excellent,0.73,0.85,0.5,0.028,0.44,0.948,0.8
+31R028,The Eagle Academy for Young Men of Staten Island,97,Good,0.8,0.94,0.854,0.103,0.804,0.815,0.91
+31R047,CSI High School for International Studies,521,Excellent,0.91,0.78,0.555,0.031,0.489,0.942,0.84
+31R064,Gaynor McCown Expeditionary Learning School,537,Excellent,0.98,0.84,0.509,0.02,0.447,0.897,0.89
+31R080,The Michael J. Petrides School,490,Good,0.92,0.89,0.625,0.041,0.567,0.892,0.86
+31R440,New Dorp High School,3060,Fair,0.82,0.76,0.647,0.072,0.575,0.903,0.85
+31R445,Port Richmond High School,1700,Fair,0.93,0.81,0.828,0.124,0.745,0.832,0.88
+31R450,Curtis High School,2425,Good,0.88,0.78,0.81,0.128,0.723,0.824,0.87
+31R455,Tottenville High School,3754,Good,0.92,0.77,0.452,0.034,0.388,0.918,0.86
+31R460,Susan E. Wagner High School,2740,Good,0.77,0.77,0.64,0.061,0.561,0.935,0.85
+31R600,Ralph R. McKee Career and Technical Education High School,625,Good,,,0.815,0.086,0.762,0.845,
+31R605,Staten Island Technical High School,1425,Excellent,0.85,0.72,0.462,0.023,0.385,0.963,0.92
+32K168,The Brooklyn School for Math and Research,337,Good,0.86,0.86,0.891,0.199,0.724,0.895,0.84
+32K403,Academy for Excellence in Leadership,277,Fair,0.62,0.83,0.944,0.336,0.718,0.828,0.85
+32K545,EBC High School for Public Service - Bushwick,413,Fair,0.76,0.82,0.95,0.269,0.789,0.801,0.82
+32K549,The Brooklyn School for Social Justice,268,Fair,0.64,0.8,0.937,0.317,0.757,0.834,0.87
+32K552,The Academy of Urban Planning and Engineering,419,Good,0.92,0.86,0.874,0.212,0.74,0.9,0.86
+32K554,All City Leadership Secondary School,238,Excellent,0.94,0.84,0.728,0.063,0.66,0.913,0.93
+32K556,Bushwick Leaders High School for Academic Excellence,359,Fair,0.69,0.9,0.933,0.315,0.758,0.821,0.81
+84K037,Beginning with Children Charter School II,277,,,0.94,0.877,0.112,0.791,0.948,
+84K356,Achievement First Crown Heights Charter School,688,Fair,,,0.811,0.089,0.744,0.914,
+84K358,Achievement First East New York Charter School,461,,,,0.804,0.08,0.731,0.919,
+84K367,Success Academy Charter School - Bed Stuy 1,219,,,,0.621,0.068,0.525,,
+84K406,"EMBER Charter School for Mindful Education, Innovation and Transformation",85,Fair,0.91,0.92,0.908,0.2,0.859,0.725,0.9
+84K473,Williamsburg Charter High School,662,Fair,0.84,0.78,0.876,0.142,0.795,0.769,0.83
+84K517,Uncommon Bed-Stuy West Charter School NYC,504,Good,,,0.799,0.099,0.7,0.864,
+84K593,Uncommon Excellence Boys Charter School NYC,6,,,,0.896,0.167,0.833,,
+84K608,Uncommon Kings Charter School NYC,522,Fair,,,0.854,0.13,0.776,0.89,
+84K626,Achievement First Brownsville Charter School,29,,,,0.546,0.103,0.448,,
+84K652,Brooklyn Ascend Charter School,261,Needs Improvement,,,0.838,0.123,0.747,0.933,
+84K680,Achievement First Aspire Charter School,371,Fair,,,0.86,0.135,0.765,0.888,
+84K693,Northside Charter High School,443,Needs Improvement,0.46,0.64,0.862,0.135,0.783,0.794,0.79
+84K712,Uncommon Excellence Girls Charter School NYC,492,Fair,,,0.797,0.1,0.717,0.907,
+84K730,Summit Academy Charter School,187,Good,0.76,0.93,0.932,0.326,0.85,0.992,0.86
+84K733,"Math, Engineering, and Science Academy Charter High School",513,Good,,,0.895,0.195,0.774,0.896,
+84K738,United Charter High School for Advanced Math and Science lll,283,Excellent,0.79,0.89,0.823,0.138,0.735,0.906,0.89
+84K744,Coney Island Preparatory Public Charter School,377,Good,0.83,0.88,0.844,0.045,0.782,0.866,0.8
+84K757,Unity Preparatory Charter School of Brooklyn,265,Good,,,0.85,0.143,0.77,,
+84K775,Uncommon Brownsville North Charter School NYC,561,Fair,,,0.7,0.093,0.613,0.899,
+84K782,Bedford Stuyvesant New Beginnings Charter School,77,,,,,0.286,0.831,0.867,
+84K803,Brooklyn Laboratory Charter School,601,Needs Improvement,0.83,,0.829,0.178,0.772,0.727,0.8
+84K892,Brooklyn Emerging Leaders Academy Charter School,218,Good,,,0.76,0.142,0.674,0.87,
+84K928,Brooklyn Prospect Charter School - CSD 15.2,729,Good,,,0.432,0.049,0.346,0.975,
+84M202,Great Oaks Kathleen Sherry Charter School,196,Fair,0.84,0.92,0.843,0.179,0.755,0.832,0.89
+84M204,Capital Preparatory Harlem Charter School,142,Fair,0.73,0.8,0.921,0.106,0.866,0.831,0.61
+84M279,Opportunity Charter School,230,Fair,,,0.948,0.126,0.913,0.995,
+84M284,Harlem Children's Zone Promise Academy Charter School,256,Excellent,0.67,0.87,0.867,0.164,0.77,0.926,0.86
+84M295,School in the Square Public Charter School,112,,0.71,0.91,0.858,0.152,0.777,0.916,0.79
+84M341,Harlem Children's Zone Promise Academy II Charter School,213,Good,0.69,0.88,0.867,0.113,0.793,0.907,0.87
+84M350,Democracy Preparatory Charter School,426,Fair,,0.89,0.87,0.134,0.777,0.799,
+84M351,Success Academy Charter School - Harlem 1,884,Good,,,0.643,0.066,0.555,,
+84M353,New Heights Academy Charter School,420,Good,0.85,0.9,0.933,0.138,0.86,0.897,0.84
+84M389,KIPP Beyond Charter School,254,,0.96,0.89,0.854,0.094,0.791,0.933,0.85
+84M433,Innovation Charter High School,401,Needs Improvement,0.63,0.82,0.924,0.2,0.863,0.765,0.84
+84M478,Inwood Academy for Leadership Charter School,527,Fair,0.77,0.91,0.896,0.161,0.827,0.913,0.85
+84M481,Democracy Preparatory Harlem Charter School,369,Fair,0.69,0.86,0.871,0.122,0.808,0.819,0.8
+84M518,East Harlem Scholars Academy Charter School,406,Needs Improvement,,,0.937,0.17,0.874,0.778,
+84M522,Broome Street Academy Charter High School,262,Needs Improvement,,0.87,0.923,0.229,0.859,0.721,
+84M708,Harlem Prep Charter School,408,Fair,,,0.925,0.152,0.858,0.713,
+84M709,Harlem Village Academy North Charter School,205,Good,,,0.832,0.102,0.746,0.886,
+84Q320,United Charter High School for Advanced Math and Science lV,361,Good,0.69,0.87,0.666,0.066,0.607,0.896,0.84
+84Q340,Challenge Preparatory Charter School,302,Fair,0.79,0.88,0.827,0.116,0.745,0.853,0.82
+84Q373,United Charter High School for the Humanities lV,187,Good,0.87,0.86,0.909,0.144,0.872,0.85,0.91
+84Q380,Forte Preparatory Academy Charter School,202,,0.65,0.89,0.829,0.134,0.698,,0.86
+84Q414,Renaissance Charter School 2,173,,0.81,0.92,0.823,0.26,0.642,0.991,0.84
+84Q705,Renaissance Charter School,269,Good,0.84,0.88,0.722,0.082,0.658,0.906,0.84
+84R067,John W. Lavelle Preparatory Charter School,165,Good,0.81,0.88,0.768,0.061,0.709,0.869,0.74
+84R070,Lois and Richard Nicotra Early College Charter School,192,Good,,,0.758,0.083,0.682,0.883,
+84R083,Richmond Preparatory Charter School,58,,,0.66,0.703,0.086,0.655,0.898,
+84X185,Pharos Academy Charter School,231,Excellent,0.84,0.91,0.9,0.126,0.831,0.924,0.82
+84X202,United Charter High School for Advanced Math and Science ll,488,Excellent,0.84,0.88,0.901,0.113,0.842,0.909,0.88
+84X208,United Charter High School for the Humanities II,248,Good,0.77,0.9,0.931,0.21,0.871,0.787,0.82
+84X309,South Bronx Charter School for International Cultures and the Arts,96,,,0.91,0.895,0.219,0.74,0.871,
+84X345,Leaders In Our Neighborhood Charter School,296,Good,0.76,0.93,0.902,0.149,0.841,0.885,0.87
+84X347,International Leadership Charter High School,319,Good,,,0.889,0.179,0.809,0.914,
+84X380,Success Academy Charter School - Bronx 3,441,Fair,,,0.791,0.077,0.698,,
+84X387,Brilla College Preparatory Charter School,92,,,,0.925,0.163,0.88,0.909,
+84X393,University Prep Charter High School,446,Excellent,0.79,0.63,0.868,0.099,0.796,0.924,0.93
+84X395,"NYC Charter High School for Architecture, Engineering and Construction Industries",454,Good,0.88,1.0,0.903,0.159,0.844,0.87,0.92
+84X429,Charter High School for Law and Social Justice,473,Fair,0.94,0.91,,0.195,0.879,0.802,0.92
+84X460,Atmosphere Academy Public Charter School,772,Good,0.79,0.93,0.847,0.141,0.762,0.894,0.85
+84X461,Nuasin Next Generation Charter School,280,Fair,0.76,0.88,0.943,0.154,0.882,0.843,0.86
+84X465,Boys Preparatory Charter School of New York,59,,,,0.927,0.085,0.898,,
+84X471,American Dream Charter School,341,Excellent,0.85,0.91,,0.202,0.865,0.885,0.83
+84X482,Dr. Richard Izquierdo Health and Science Charter School,426,Good,0.84,0.87,,0.122,0.89,0.83,0.82
+84X487,Girls Preparatory Charter School of the Bronx,74,,,,0.894,0.162,0.851,,
+84X488,The Equality Charter School,387,Fair,0.88,0.92,0.761,0.054,0.682,0.901,0.86
+84X539,United Charter High School for Advanced Math and Science,415,Good,0.8,0.81,0.887,0.106,0.827,0.872,0.88
+84X553,United Charter High School for the Humanities,333,Good,0.77,0.96,0.918,0.153,0.865,0.867,0.87
+84X581,South Bronx Community Charter High School,353,Needs Improvement,0.71,0.86,0.924,0.19,0.864,0.678,0.91
+84X585,Legacy College Preparatory Charter School,525,Fair,0.86,0.87,0.932,0.16,0.863,0.866,0.85
+84X597,Urban Assembly Charter School for Computer Science,494,Good,0.91,0.92,0.896,0.119,0.826,0.906,0.96
+84X611,AECI II: NYC Charter High School for Computer Engineering and Innovation,447,Good,0.83,0.83,0.938,0.157,0.879,0.883,0.89
+84X614,Dream Charter School Mott Haven,499,Excellent,,0.9,0.9,0.138,0.852,0.863,
+84X617,KIPP Bronx Charter School III,1466,Good,,,0.881,0.117,0.812,0.906,
+84X627,Capital Preparatory Bronx Charter School,206,,0.78,0.82,0.684,0.083,0.597,0.939,0.69
+84X635,Earl Monroe New Renaissance Basketball Charter School,363,Fair,,0.93,0.798,0.085,0.727,0.768,
+84X640,Family Life Academy Charter Schools High School,425,,,,0.939,0.181,0.878,0.869,
+84X648,Girls Preparatory Charter School of New York,83,,,,0.92,0.145,0.807,,
+84X649,Democracy Preparatory Endurance Charter School,385,,0.77,,0.882,0.153,0.79,0.826,0.78
+84X703,Bronx Preparatory Charter School,505,Fair,,,0.912,0.097,0.851,0.847,
+84X704,KIPP Academy Charter School,278,Excellent,,,0.853,0.104,0.766,0.934,
