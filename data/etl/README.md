@@ -8,3 +8,5 @@ These folders contain the code/scripts used for initializing the tables and rela
 <br>
 
 # STAR Schema Diagram
+
+<img width="1810" height="1372" alt="image" src="https://github.com/user-attachments/assets/d7714add-8fbe-4f51-9991-16d1cda59f2a" />
