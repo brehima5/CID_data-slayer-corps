@@ -1,10 +1,7 @@
-**Feel free to fork this template, revise, 
-and use for your CID**
-
-# [CID-TeamName]: [Project Title - e.g., Mapping Housing Injustice in NYC]
+# Data Slayer Corps: Closing NYC’s College Readiness Gap
 
 ## Critical Research Question (CRQ)
-> **[Insert your finalized, critical, measurable question here.]**
+> **To what extent do a high school’s Economic Need Index (ENI) and Percent of Students in Temporary Housing predict the Readiness-Gap (percentage difference between high school graduation & College and Career Readiness) for specific demographic subgroups, and which schools serve as "positive outliers" by defying these systemic predictors?**
 
 ## Key Actionable Recommendations (Mandatory)
 * **Recommendation 1 (Policy):** [Clear, data-backed recommendation for a specific stakeholder.]
