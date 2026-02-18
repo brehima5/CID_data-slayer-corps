@@ -137,12 +137,36 @@ The results of the T-Test tell us that the average percent of positive family in
 > !NOTE
 > Contextualize CCR, ENI by isolating one school --> putting into digestable number
 
-> !NOTE
-> Explore specialized high schools for ENI skewness (ty big bro kev)
-
 
 ### **Story** 
+
 We want to predict CCR (why?) because if schools have high CCR --> they have high Post Second Enrollment (Reference Thierno's EDA). Thus, high post-second enrollment means higher chance of success.
+
+
+
+#### **More EDA**
+We want to find schools that are still succeeding despite high ENI.
+Succeeding meaning high CCR, despite system issues.
+
+Explore outliers: specialized high schools for ENI skewness (ty big bro kev)
+
+#### **Outliers:**
+- Negative: Low ENI, Low CCR
+- Positive: High ENI, High CCR
+
+How do we implement this in the model
+
+### Jelly Notes 2/18/2026
+
+For EDA purposes, keep the OLS model.
+
+Use classification model for tuning + final
+
+Include CIs
+
+- "We looked at ENI on its own, then we looked at [X] on its own, etc."
+
+- For the outliers, include in the storytelling by describing them, not necessarily model for them.
 
 ***
 
