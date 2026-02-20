@@ -473,3 +473,34 @@ Include CIs
 ---
 
 *Generated from Thierno's EDA section in `eda.ipynb` — Data Slayer Corps, CID Project*
+
+
+
+
+
+
+
+
+## Notes from Jelly: Technical Advice 2/20/26
+
+- Make the steps more descriptive
+    - What I did with outliers.
+    - More information about dropping NAs
+
+- Input untransformed columns into the model before transformed. Logistic doesn't *require* normalized variables.
+
+- Move VIF to before the modeling. You check multicollinearity before using variables.
+
+- Understand what 'class_weight="balanced"' actually does.
+
+
+### **Next Steps**
+Baseline: Common Sample (Low CCR) Average
+
+Simple: logistic model
+    - Check VIF before
+
+
+For our baseline model, we are going to be using Dummy Classifier. This is a model that makes predictions that ignores input features and does no learning. Essentially, it serves as a target reference for our subsequent models to beat.
+
+Our Dummy Classifier in particular will always predict the majority class of our target variable (y), which, in our case, is low College & Career Readiness (CCR).
