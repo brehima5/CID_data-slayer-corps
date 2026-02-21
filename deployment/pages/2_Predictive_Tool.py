@@ -111,7 +111,7 @@ with col_right:
         title={"text": "Predicted CCR (red line = city avg)"},
     ))
     fig_gauge.update_layout(height=320, margin=dict(t=60, b=20, l=30, r=30))
-    st.plotly_chart(fig_gauge, width='stretch', key='gauge')
+    st.plotly_chart(fig_gauge, use_container_width=True)
 
 # ── feature contribution breakdown ───────────────────────────────────
 st.markdown("---")
@@ -147,7 +147,7 @@ fig_cb.update_layout(
     margin=dict(l=20, r=20, t=50, b=30),
     plot_bgcolor="white",
 )
-st.plotly_chart(fig_cb, width='stretch', key='contrib')
+st.plotly_chart(fig_cb, use_container_width=True)
 
 # ── intercept context ────────────────────────────────────────────────
 intercept_ccr = 1 / (1 + np.exp(-contribs["const"])) * 100

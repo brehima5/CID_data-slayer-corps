@@ -67,7 +67,7 @@ fig.update_layout(
     margin=dict(l=20, r=20, t=50, b=40),
     plot_bgcolor="white",
 )
-st.plotly_chart(fig, width='stretch', key='coef_chart')
+st.plotly_chart(fig, use_container_width=True)
 
 # ── interpretation cards ─────────────────────────────────────────────
 st.markdown("### Feature Interpretation")
@@ -141,7 +141,7 @@ fig2.update_layout(
     height=400,
     plot_bgcolor="white",
 )
-st.plotly_chart(fig2, width='stretch', key='metrics_chart')
+st.plotly_chart(fig2, use_container_width=True)
 
 mae_gap = abs(train_m["MAE"] - test_m["MAE"])
 r2_gap  = abs(train_m["r2"]  - test_m["r2"])
