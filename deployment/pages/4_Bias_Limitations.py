@@ -68,12 +68,12 @@ with tab1:
         plot_bgcolor="white",
         legend=dict(orientation="h", y=-0.15),
     )
-    st.plotly_chart(fig_avail, width='stretch')
+    st.plotly_chart(fig_avail, use_container_width=True)
 
     # raw counts table
     with st.expander("Raw counts"):
         ct["Total"] = ct.sum(axis=1)
-        st.dataframe(ct, width='stretch')
+        st.dataframe(ct, use_container_width=True)
 
     # headline metrics
     total = len(sg_all)
@@ -149,7 +149,7 @@ with tab2:
         yaxis_title=compare_vars[sel_var],
         height=450, plot_bgcolor="white",
     )
-    st.plotly_chart(fig_comp, width='stretch')
+    st.plotly_chart(fig_comp, use_container_width=True)
 
     # t-test table
     st.markdown("#### Statistical Test: Reported vs Suppressed")
@@ -173,7 +173,7 @@ with tab2:
                 ))
 
     if test_rows:
-        st.dataframe(pd.DataFrame(test_rows), width='stretch', hide_index=True)
+        st.dataframe(pd.DataFrame(test_rows), use_container_width=True, hide_index=True)
     else:
         st.info("Insufficient data for statistical comparison.")
 

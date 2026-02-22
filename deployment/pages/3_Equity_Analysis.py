@@ -72,7 +72,7 @@ with tab1:
         .rename(columns={"count": "N", "mean": "Mean", "median": "Median",
                          "std": "Std", "min": "Min", "max": "Max"})
     )
-    st.dataframe(summary, width='stretch')
+    st.dataframe(summary, use_container_width=True)
 
     c1, c2 = st.columns(2)
 
@@ -96,7 +96,7 @@ with tab1:
             xaxis_title="CCR (%)", yaxis_title="Schools",
             height=420, plot_bgcolor="white",
         )
-        st.plotly_chart(fig_hist, width='stretch')
+        st.plotly_chart(fig_hist, use_container_width=True)
 
     # box plot
     with c2:
@@ -114,7 +114,7 @@ with tab1:
             title="CCR by Subgroup (Box Plot)",
             yaxis_title="CCR (%)", height=420, plot_bgcolor="white",
         )
-        st.plotly_chart(fig_box, width='stretch')
+        st.plotly_chart(fig_box, use_container_width=True)
 
     # gap callout
     sg_means = filtered.groupby("Subgroup")["ccr_pct"].mean().sort_values(ascending=False)
@@ -178,11 +178,11 @@ with tab2:
         yaxis_title="CCR (%)",
         height=500, plot_bgcolor="white",
     )
-    st.plotly_chart(fig_sc, width='stretch')
+    st.plotly_chart(fig_sc, use_container_width=True)
 
     if corr_rows:
         st.markdown("#### Correlation Summary")
-        st.dataframe(pd.DataFrame(corr_rows).set_index("Subgroup"), width='stretch')
+        st.dataframe(pd.DataFrame(corr_rows).set_index("Subgroup"), use_container_width=True)
 
     # full correlation matrix
     with st.expander("📋 Full Stressor × Subgroup Correlation Table"):
@@ -198,7 +198,7 @@ with tab2:
                 else:
                     row[sg] = "N/A"
             rows.append(row)
-        st.dataframe(pd.DataFrame(rows).set_index("Stressor"), width='stretch')
+        st.dataframe(pd.DataFrame(rows).set_index("Stressor"), use_container_width=True)
 
 # =====================================================================
 # TAB 3 — Within-School Gaps
@@ -234,7 +234,7 @@ with tab3:
             yaxis_title="Gap (pts from school mean)",
             height=450, plot_bgcolor="white",
         )
-        st.plotly_chart(fig_gap_box, width='stretch')
+        st.plotly_chart(fig_gap_box, use_container_width=True)
 
     with c2:
         # gap vs ENI
@@ -271,7 +271,7 @@ with tab3:
             yaxis_title="Intra-School Gap (pts)",
             height=450, plot_bgcolor="white",
         )
-        st.plotly_chart(fig_gap_eni, width='stretch')
+        st.plotly_chart(fig_gap_eni, use_container_width=True)
 
     # gap summary table
     st.markdown("#### Gap Summary")
@@ -283,7 +283,7 @@ with tab3:
                          "std": "Std", "count": "N"})
         .sort_values("Mean Gap", ascending=False)
     )
-    st.dataframe(gap_tbl, width='stretch')
+    st.dataframe(gap_tbl, use_container_width=True)
 
     st.markdown(
         """
