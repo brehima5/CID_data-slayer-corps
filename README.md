@@ -73,9 +73,26 @@ This project also utilized School Zone Locations, which contained an ESRI shape 
 
 </div>
 
+### Modeling Approach
+
+A **Beta Regression** model with a logit link was chosen because CCR is a bounded proportion (0–100 %). Unlike OLS, beta regression respects these bounds, naturally models heteroscedasticity, and uses a logit link to capture the non-linear relationship between predictors and outcomes. The model was trained on **338 schools** (80 %) and tested on **85 schools** (20 %), with features standardized via `StandardScaler` (fit on train only) to enable direct coefficient comparison.
+
+| Feature | Type | Source |
+|---|---|---|
+| Economic Need Index | Structural stressor | `dim_environment` |
+| Log(% Temporary Housing) | Structural stressor | `dim_environment` |
+| Teaching Environment (% Positive) | Modifiable | `dim_environment` |
+| ENI × Teaching Interaction | Interaction | Engineered |
+| Avg Student Attendance | Modifiable | `dim_environment` |
+| Student Support (% Positive) | Modifiable | `env_dim.csv` |
+| Borough (one-hot, Bronx = ref) | Geographic | `dim_location` |
+---
+
 ## Key Findings
-1.  **[Finding 1 - The primary answer to your CRQ, supported by data.]**
-2.  **[Finding 2 - A key disparity or relationship identified in the data.]**
+1. **ENI and housing instability are powerful, independent predictors of CCR — together they dominate the model's explanatory power.** A 1-SD increase in ENI (≈ 0.138 raw units) is associated with a **−16.4 point** drop in predicted CCR (β = −0.667, p < 0.001), making it the single strongest predictor. Housing instability compounds this with an additional **−4.6 points** per SD (β = −0.185, p < 0.001). The model explains **~73 % of the variance** in school-level CCR (test r² = 0.73), with a test MAE of only 6.8 points, and generalizes well (MAE gap = 0.19 pts, r² gap = 0.012 — no overfitting).
+
+2. **The impacts of these stressors are *not* equally distributed across subgroups — within-school racial gaps persist even after controlling for school-level poverty.** At the same school with the same ENI and the same principal, Asian students outperform the school-wide CCR mean by **+14.3 points**, White students by **+2.9 points**, while Black students fall **−0.7 points** and Hispanic students **−1.0 points** below it. However, this gap is inflated by a severe data-visibility problem: NYC suppresses subgroup CCR when fewer than 15 students graduate, rendering **76 % of Asian** and **80 % of White** subgroup data invisible. The schools where we *can* observe these groups tend to be better-resourced, meaning raw comparisons overstate the true disparity.
+
 3.  **[Finding 3 - A model insight or statistical inference.]**
 
 ## Links to Final Deliverables
