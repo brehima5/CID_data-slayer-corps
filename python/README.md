@@ -4,7 +4,7 @@
 
 EDA was conducted using both Jupyter Notebooks and DB Browser for SQLite. This document consolidates findings across all interfaces.
 
-> !NOTE
+> [!NOTE]
 > Source file contains code for the initializion of the tables and relationships of our database. A README file is embedded within the [src](/python/src/) file.
 
 ---
