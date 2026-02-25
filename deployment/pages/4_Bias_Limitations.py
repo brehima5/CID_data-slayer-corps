@@ -16,7 +16,7 @@ from scipy import stats
 from utils.data_loader import build_subgroup_data, SUBGROUP_COLORS
 
 st.set_page_config(page_title="Bias & Limitations", page_icon="⚠️", layout="wide")
-st.title("⚠️ Bias, Limitations & Data Suppression")
+st.title("Bias, Limitations & Data Suppression")
 st.markdown(
     "Over half of subgroup-level CCR observations are **missing** — "
     "suppressed for privacy (n < 15) or absent entirely (no cohort). "
@@ -28,9 +28,9 @@ sg_all, reported, _ = build_subgroup_data()
 
 # ── tabs ─────────────────────────────────────────────────────────────
 tab1, tab2, tab3 = st.tabs([
-    "📊 Data Availability",
-    "🔍 Missingness Profiles",
-    "📝 Implications & Tradeoffs",
+    "Data Availability",
+    "Missingness Profiles",
+    "Implications & Tradeoffs",
 ])
 
 STATUS_COLORS = {"reported": "#4CAF50", "suppressed": "#FF9800", "no cohort": "#EF5350"}
@@ -73,7 +73,7 @@ with tab1:
     # raw counts table
     with st.expander("Raw counts"):
         ct["Total"] = ct.sum(axis=1)
-        st.dataframe(ct, use_container_width=True)
+        st.dataframe(ct, width='stretch')
 
     # headline metrics
     total = len(sg_all)
@@ -173,7 +173,7 @@ with tab2:
                 ))
 
     if test_rows:
-        st.dataframe(pd.DataFrame(test_rows), use_container_width=True, hide_index=True)
+        st.dataframe(pd.DataFrame(test_rows), width='stretch', hide_index=True)
     else:
         st.info("Insufficient data for statistical comparison.")
 
@@ -181,7 +181,7 @@ with tab2:
         """
         **Pattern:** Suppressed schools tend to have **higher ENI**,
         **lower attendance**, and **higher housing instability** than
-        schools that report — confirming that missingness is
+        schools that report, confirming that missingness is
         **not random**.
         """
     )
@@ -190,11 +190,10 @@ with tab2:
 # TAB 3 — Implications & Tradeoffs
 # =====================================================================
 with tab3:
-    st.markdown("### Interpretation Caveats")
+    st.markdown("### Why Data is Suppressed")
 
     st.markdown(
         """
-        #### 🔒 Why Data Is Suppressed
 
         The NYC DOE suppresses subgroup CCR when the cohort has
         **fewer than 15 students** to protect student privacy. While
@@ -203,18 +202,18 @@ with tab3:
         - **Small subgroups** (Asian, White in many schools) are
           disproportionately suppressed.
         - Schools where a subgroup is small are often schools where
-          that group is a **minority** — potentially facing different
+          that group is a **minority**, potentially facing different
           social dynamics than schools where the group is large.
         """
     )
 
     st.markdown(
         """
-        #### ⚖️ Precision vs. Representation Tradeoff
+        #### Precision vs. Representation Tradeoff
 
         | Approach | Precision | Representation |
         |----------|-----------|----------------|
-        | **Reported only** (current) | ✅ High — real CCR data | ❌ Biased toward larger subgroups |
+        | **Reported only** (current) |  High — real CCR data | ❌ Biased toward larger subgroups |
         | **Impute suppressed** | ⚠️ Lower — estimated values | ✅ All schools included |
         | **Lower threshold (n<10)** | ⚠️ Noisier estimates | ✅ More schools report |
         | **Aggregate subgroups** | ❌ Loses nuance | ✅ More reportable groups |
@@ -227,7 +226,7 @@ with tab3:
 
     st.markdown(
         """
-        #### 🧠 What This Means for Stakeholders
+        #### Caveats & Interpretations
 
         1. **Equity conclusions are conservative.** The actual
            disparities may be **larger** than shown, because the
@@ -250,7 +249,7 @@ with tab3:
     )
 
     st.info(
-        "💡 **Bottom line:** The data we *can* see already reveals "
-        "significant disparities. The data we *can't* see likely "
+        "**Bottom line:** The data we can see already reveals "
+        "significant disparities. The data we can't see likely "
         "makes those disparities even starker."
     )
