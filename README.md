@@ -4,9 +4,9 @@
 > **To what extent do a high school’s Economic Need Index (ENI) and Percent of Students in Temporary Housing predict the Readiness-Gap (percentage difference between high school graduation & College and Career Readiness) for specific demographic subgroups, and which schools serve as "positive outliers" by defying these systemic predictors?**
 
 ## Key Actionable Recommendations
-* **Recommendation 1 (Policy):** The NYC DOE should prioritize **attendance-focused interventions at high-ENI schools**. Our model shows that student attendance is the strongest *modifiable* predictor of CCR (+4.8 pts per standard deviation), while ENI and housing instability — factors schools cannot control — account for the majority of explained variance. Targeted attendance campaigns in the highest-need districts could yield measurable CCR gains without requiring structural economic change.
-* **Recommendation 2 (Resource):** [Suggestion for optimizing resource allocation or service delivery.]
-* **Recommendation 3 (Data/Tech):** [Idea for a long-term data solution or algorithmic fairness improvement.]
+* **Recommendation 1 (Policy):** The NYC DOE should direct supplemental CCR funding to schools in the top ENI quartile (≥ 0.85), where a single standard-deviation increase in economic need is associated with a **−16.4 point drop** in college readiness. Priority should be given to schools with co-occurring housing instability (≥ 5 % temporary housing) such as (**schools example**), which compounds the poverty effect by an additional **−4.6 points**.
+* **Recommendation 2 (Resource):** Invest in **attendance intervention programs** at high-need schools (>0.80). Attendance is the strongest *modifiable* predictor in the model — a 5-percentage-point improvement (~1 SD) is associated with **+4.7 points** higher CCR. Unlike ENI and housing status, attendance is partially within reach of school-level action (e.g., mentoring, early-warning systems, family outreach).
+* **Recommendation 3 (Data/Tech):** Lower the DOE's **n < 15 suppression threshold** or adopt differential-privacy techniques for subgroup CCR reporting. Currently, 76 % of Asian and 80 % of White subgroup CCR data is suppressed, creating a systematic visibility gap that inflates apparent racial disparities and prevents equitable resource allocation. A city-level data-sharing agreement could enable privacy-preserving subgroup analysis without compromising individual student confidentiality.
 
 ## Methodology & Technical Specifications
 <div align="center">
