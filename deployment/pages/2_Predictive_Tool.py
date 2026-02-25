@@ -16,7 +16,7 @@ from utils.data_loader import (
 )
 
 st.set_page_config(page_title="Predictive Tool", page_icon="🔮", layout="wide")
-st.title("🔮 CCR Predictive Tool")
+st.title("CCR Predictive Tool")
 st.markdown(
     "Adjust the sliders below to describe a hypothetical school, "
     "then see the model's predicted **4-Year CCR** and which features "

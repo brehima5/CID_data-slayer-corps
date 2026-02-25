@@ -53,12 +53,12 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown(
         """
-        #### 📊 Model Overview
+        ####  Model Overview
         Explore which features drive CCR predictions — coefficient
         directions, magnitudes, and significance levels displayed as
         an interactive horizontal bar chart.
 
-        #### 🔮 Predictive Tool
+        ####  Predictive Tool
         Adjust school-level sliders (ENI, attendance, teaching
         environment, etc.) and instantly predict a school's CCR.
         See which factors push the prediction up or down.
@@ -68,12 +68,12 @@ with col1:
 with col2:
     st.markdown(
         """
-        #### ⚖️ Equity Analysis
+        ####  Equity Analysis
         Examine how stressors impact CCR **differently** across
         Asian, Black, Hispanic, and White subgroups. Filter by
         borough and ethnicity to reveal within-school gaps.
 
-        #### ⚠️ Bias & Limitations
+        ####  Bias & Limitations
         Understand data suppression (n < 15), missingness patterns,
         and the tradeoffs between precision and representation
         in subgroup-level reporting.
@@ -98,8 +98,6 @@ with st.expander("ℹ️  About this project"):
         relationship between predictors and the outcome.
 
         **Data Sources:**
-        NYC DOE School Quality Reports, NYC InfoHub, and publicly
-        available demographic/environmental data for 500+ NYC high
-        schools.
+        NYC DOE School Quality Reports, NYC InfoHub
         """
     )
