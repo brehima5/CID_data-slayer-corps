@@ -87,7 +87,47 @@ A **Beta Regression** model with a logit link was chosen because CCR is a bounde
 | Student Support (% Positive) | Modifiable | `env_dim.csv` |
 | Borough (one-hot, Bronx = ref) | Geographic | `dim_location` |
 ---
+### Model Results
+#### Standardized Beta Coefficients (Logit scale) with 95%CI
+Because the model uses a logit link, contributions are additive on the log-odds scale but non-linear on the probability scale. The same 0.1 shift in logit has a larger impact near 50 % CCR than near 5 % or 95 %.
+<img width="900" height="520" alt="coef_bar_plot" src="https://github.com/user-attachments/assets/f60e6dd1-3e6b-4bb1-920f-c354c5e3e9dd" />
 
+
+#### Back-transformed coefficients (effect of a 1-SD shift on the CCR percentage scale, evaluated at the intercept baseline of **54.3 %**):
+
+| Feature | β (logit) | Sig | CCR Impact (1-SD) | Interpretation |
+|---|:---:|:---:|:---:|---|
+| **Intercept** | +0.172 | *** | Baseline = 54.3 % | Predicted CCR when all features are at their training-set average |
+| **Economic Need Index** | −0.667 | *** | **−16.4 pts** | Strongest predictor — more poverty → sharply lower CCR |
+| **Housing Instability (log)** | −0.185 | *** | **−4.6 pts** | Compounds poverty effect independently |
+| **Avg Student Attendance** | +0.191 | *** | **+4.7 pts** | Strongest *modifiable* lever |
+| **Student Support (% Positive)** | +0.066 | * | **+1.6 pts** | Modest but actionable |
+| Teaching Environment | −0.254 | ns | −6.3 pts | Not significant after controlling for poverty |
+| ENI × Teaching Interaction | +0.420 | ns | — | No evidence teaching buffers ENI's effect |
+| Brooklyn (vs Bronx) | −0.075 | ns | −1.9 pts | — |
+| Manhattan (vs Bronx) | +0.108 | ns | +2.7 pts | — |
+| Queens (vs Bronx) | −0.058 | ns | −1.4 pts | — |
+| Staten Island (vs Bronx) | −0.579 | ** | **−14.3 pts** | Significant under-performance vs Bronx, all else equal |
+
+> `***` p < 0.001 · `**` p < 0.01 · `*` p < 0.05 · `ns` not significant
+
+### Model Diagnostic
+
+<img width="800" height="600" alt="train_test_plot" src="https://github.com/user-attachments/assets/096c518c-cb3b-4dd0-a18e-f55ba8828d23" />
+
+**Notes**: No overfitting detected — the train-test MAE gap is only 0.19 pts and the r² gap is 0.012.
+
+**Per-Borough Test-Set Accuracy:**
+
+| Borough | N (test) | MAE | Bias |
+|---|:---:|:---:|:---:|
+| Bronx | 17 | 5.2 | −1.8 |
+| Brooklyn | 21 | 8.1 | −2.1 |
+| Manhattan | 29 | 6.7 | +3.9 |
+| Queens | 12 | 5.8 | −1.2 |
+| Staten Island | 6 | 8.9 | +8.9 |
+
+> Staten Island shows the largest positive bias (+8.9 pts) due to its small sample size (n = 6) and the borough dummy's large negative coefficient.
 ## Key Findings
 1. **ENI and housing instability are powerful, independent predictors of CCR — together they dominate the model's explanatory power.** A 1-SD increase in ENI (≈ 0.138 raw units) is associated with a **−16.4 point** drop in predicted CCR (β = −0.667, p < 0.001), making it the single strongest predictor. Housing instability compounds this with an additional **−4.6 points** per SD (β = −0.185, p < 0.001). The model explains **~73 % of the variance** in school-level CCR (test r² = 0.73), with a test MAE of only 6.8 points, and generalizes well (MAE gap = 0.19 pts, r² gap = 0.012 — no overfitting).
 
