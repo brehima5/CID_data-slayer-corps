@@ -13,17 +13,35 @@ import streamlit as st
 
 st.set_page_config(
     page_title="NYC CCR Dashboard",
-    page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
+# ── bump font sizes ~15 % while keeping proportions ─────────────────
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 17px;
+    }
+    h1 { font-size: 2.2rem !important; }
+    h2 { font-size: 1.7rem !important; }
+    h3 { font-size: 1.35rem !important; }
+    h4 { font-size: 1.15rem !important; }
+    .stMetricValue { font-size: 1.9rem !important; }
+    .stMetricLabel { font-size: 0.95rem !important; }
+    .stTabs [data-baseweb="tab"] { font-size: 1.05rem !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # ── sidebar branding ────────────────────────────────────────────────
-st.sidebar.title("🎓 CCR Dashboard")
+st.sidebar.title("CCR Dashboard")
 st.sidebar.caption("Data Slayer Corps · CID 2025")
 
 # ── hero section ─────────────────────────────────────────────────────
-st.title("🎓 NYC College & Career Readiness Dashboard")
+st.title("NYC College & Career Readiness Dashboard")
 st.markdown(
     "Predict school-level **4-Year College & Career Readiness (CCR)** "
     "rates across NYC high schools using a **Beta Regression** model, and "
@@ -39,8 +57,8 @@ tm, tsm = art["train_metrics"], art["test_metrics"]
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Schools Analyzed", f"{tm['N'] + tsm['N']}")
-c2.metric("Model r² (Test)", f"{tsm['r2']:.2f}")
-c3.metric("Test MAE", f"{tsm['MAE']:.1f} pts")
+c2.metric("Model R²", f"{tsm['r2']:.2f}")
+c3.metric("Test MAE", f"{tsm['MAE']:.1f} % pts")
 c4.metric("Precision φ", f"{art['precision']:.1f}")
 
 st.markdown("---")

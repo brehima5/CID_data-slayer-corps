@@ -16,8 +16,27 @@ from scipy.stats import pearsonr
 
 from utils.data_loader import build_subgroup_data, SUBGROUP_COLORS, BOROUGHS
 
-st.set_page_config(page_title="Equity Analysis", page_icon="⚖️", layout="wide")
-st.title("⚖️ Subgroup-Level Equity Analysis")
+st.set_page_config(page_title="Equity Analysis", layout="wide")
+
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 17px;
+    }
+    h1 { font-size: 2.2rem !important; }
+    h2 { font-size: 1.7rem !important; }
+    h3 { font-size: 1.35rem !important; }
+    h4 { font-size: 1.15rem !important; }
+    .stMetricValue { font-size: 1.9rem !important; }
+    .stMetricLabel { font-size: 0.95rem !important; }
+    .stTabs [data-baseweb="tab"] { font-size: 1.05rem !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.title("Subgroup-Level Equity Analysis")
 st.markdown(
     "Explore how **CCR outcomes differ across racial/ethnic subgroups** "
     "and how environmental stressors impact each group."
@@ -53,9 +72,9 @@ if filtered.empty:
 
 # ── tabs ─────────────────────────────────────────────────────────────
 tab1, tab2, tab3 = st.tabs([
-    "📊 CCR Distributions",
-    "🔬 Stressor Impact",
-    "🏫 Within-School Gaps",
+    "CCR Distributions",
+    "Stressor Impact",
+    "Within-School Gaps",
 ])
 
 # =====================================================================
@@ -122,7 +141,7 @@ with tab1:
         top, bottom = sg_means.index[0], sg_means.index[-1]
         gap = sg_means.iloc[0] - sg_means.iloc[-1]
         st.warning(
-            f"⚠️ **{top}–{bottom} gap: {gap:.1f} percentage points** "
+            f"**{top}–{bottom} gap: {gap:.1f} percentage points** "
             f"({sg_means.iloc[0]:.1f} % vs {sg_means.iloc[-1]:.1f} %)"
         )
 
@@ -180,12 +199,8 @@ with tab2:
     )
     st.plotly_chart(fig_sc, use_container_width=True)
 
-    if corr_rows:
-        st.markdown("#### Correlation Summary")
-        st.dataframe(pd.DataFrame(corr_rows).set_index("Subgroup"), use_container_width=True)
-
     # full correlation matrix
-    with st.expander("📋 Full Stressor × Subgroup Correlation Table"):
+    with st.expander("Full Stressor × Subgroup Correlation Table"):
         rows = []
         for col, label in stressors.items():
             row = {"Stressor": label}

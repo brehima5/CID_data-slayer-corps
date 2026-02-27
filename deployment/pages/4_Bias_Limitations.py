@@ -16,6 +16,25 @@ from scipy import stats
 from utils.data_loader import build_subgroup_data, SUBGROUP_COLORS
 
 st.set_page_config(page_title="Bias & Limitations", page_icon="⚠️", layout="wide")
+
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 17px;
+    }
+    h1 { font-size: 2.2rem !important; }
+    h2 { font-size: 1.7rem !important; }
+    h3 { font-size: 1.35rem !important; }
+    h4 { font-size: 1.15rem !important; }
+    .stMetricValue { font-size: 1.9rem !important; }
+    .stMetricLabel { font-size: 0.95rem !important; }
+    .stTabs [data-baseweb="tab"] { font-size: 1.05rem !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("Bias, Limitations & Data Suppression")
 st.markdown(
     "Over half of subgroup-level CCR observations are **missing** — "
@@ -213,10 +232,9 @@ with tab3:
 
         | Approach | Precision | Representation |
         |----------|-----------|----------------|
-        | **Reported only** (current) |  High — real CCR data | ❌ Biased toward larger subgroups |
-        | **Impute suppressed** | ⚠️ Lower — estimated values | ✅ All schools included |
-        | **Lower threshold (n<10)** | ⚠️ Noisier estimates | ✅ More schools report |
-        | **Aggregate subgroups** | ❌ Loses nuance | ✅ More reportable groups |
+        | **Reported only** (current) |  High — real CCR data |Biased toward larger subgroups |
+        | **Impute suppressed** |Lower — estimated values |All schools included |
+        | **Aggregate subgroups** |Loses nuance |More reportable groups |
 
         This dashboard uses **reported data only** — the most precise
         approach, but one that systematically excludes the highest-need

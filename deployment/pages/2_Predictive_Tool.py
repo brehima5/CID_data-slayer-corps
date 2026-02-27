@@ -16,6 +16,25 @@ from utils.data_loader import (
 )
 
 st.set_page_config(page_title="Predictive Tool", page_icon="🔮", layout="wide")
+
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 17px;
+    }
+    h1 { font-size: 2.2rem !important; }
+    h2 { font-size: 1.7rem !important; }
+    h3 { font-size: 1.35rem !important; }
+    h4 { font-size: 1.15rem !important; }
+    .stMetricValue { font-size: 1.9rem !important; }
+    .stMetricLabel { font-size: 0.95rem !important; }
+    .stTabs [data-baseweb="tab"] { font-size: 1.05rem !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("CCR Predictive Tool")
 st.markdown(
     "Adjust the sliders below to describe a hypothetical school, "

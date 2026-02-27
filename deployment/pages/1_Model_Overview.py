@@ -14,8 +14,27 @@ import numpy as np
 
 from utils.data_loader import fit_beta_model, FEATURE_DISPLAY
 
-st.set_page_config(page_title="Model Overview", page_icon="📊", layout="wide")
-st.title("📊 Model Overview — Feature Importance")
+st.set_page_config(page_title="Model Overview", layout="wide")
+
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 17px;
+    }
+    h1 { font-size: 2.2rem !important; }
+    h2 { font-size: 1.7rem !important; }
+    h3 { font-size: 1.35rem !important; }
+    h4 { font-size: 1.15rem !important; }
+    .stMetricValue { font-size: 1.9rem !important; }
+    .stMetricLabel { font-size: 0.95rem !important; }
+    .stTabs [data-baseweb="tab"] { font-size: 1.05rem !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.title("Model Overview — Feature Importance")
 
 art = fit_beta_model()
 coef_df = art["coef_df"]
@@ -78,22 +97,21 @@ ns_feats  = plot_df[plot_df["sig"] == "ns"]
 
 cols = st.columns(2)
 with cols[0]:
-    st.markdown("#### ✅ Statistically Significant")
+    st.markdown("#### Statistically Significant")
     for idx, row in sig_feats.iterrows():
         direction = "⬆️ increases" if row["Coefficient"] > 0 else "⬇️ decreases"
         st.markdown(
-            f"**{row['display']}** ({row['sig']}, p = {row['p']:.4f})  \n"
+            f"**{row['display']}**\n"
             f"A 1-SD increase {direction} predicted CCR."
         )
 
 with cols[1]:
-    st.markdown("#### ⚪ Not Significant")
+    st.markdown("#### Not Significant at α = 0.05")
     if len(ns_feats) == 0:
         st.info("All features are statistically significant.")
     for idx, row in ns_feats.iterrows():
         st.markdown(
-            f"**{row['display']}** (p = {row['p']:.3f})  \n"
-            f"No statistically significant effect at α = 0.05."
+            f"**{row['display']}**\n"
         )
 
 # ── model performance ────────────────────────────────────────────────
@@ -101,67 +119,22 @@ st.markdown("---")
 st.markdown("### Model Performance")
 
 met_cols = st.columns(5)
-labels = ["MAE", "RMSE", "MAPE", "r", "r2"]
-nice   = ["MAE (pts)", "RMSE (pts)", "MAPE (%)", "Pearson r", "r²"]
+labels = ["MAE", "RMSE"]
+nice   = ["MAE (% pts)", "RMSE (% pts)"]
 
 for i, (key, lbl) in enumerate(zip(labels, nice)):
     tr = train_m[key]
     te = test_m[key]
     met_cols[i].metric(
         label=f"Test {lbl}",
-        value=f"{te:.2f}" if isinstance(te, float) else str(te),
-        delta=f"{te - tr:+.2f} vs train" if isinstance(te, float) else None,
-        delta_color="inverse" if key in ("MAE", "RMSE", "MAPE") else "normal",
+        value=f"{te:.2f}" if isinstance(te, float) else str(te)
     )
-
-# train vs test grouped bar
-fig2 = go.Figure()
-bar_labels = ["MAE", "RMSE", "MAPE (%)", "r²"]
-bar_keys   = ["MAE", "RMSE", "MAPE", "r2"]
-fig2.add_trace(go.Bar(
-    name="Train",
-    x=bar_labels,
-    y=[train_m[k] for k in bar_keys],
-    marker_color="#4682B4",
-    text=[f"{train_m[k]:.2f}" for k in bar_keys],
-    textposition="outside",
-))
-fig2.add_trace(go.Bar(
-    name="Test",
-    x=bar_labels,
-    y=[test_m[k] for k in bar_keys],
-    marker_color="#FF7F50",
-    text=[f"{test_m[k]:.2f}" for k in bar_keys],
-    textposition="outside",
-))
-fig2.update_layout(
-    barmode="group",
-    title="Train vs Test Metrics — Overfitting Check",
-    yaxis_title="Value",
-    height=400,
-    plot_bgcolor="white",
-)
-st.plotly_chart(fig2, use_container_width=True)
 
 mae_gap = abs(train_m["MAE"] - test_m["MAE"])
 r2_gap  = abs(train_m["r2"]  - test_m["r2"])
 if mae_gap < 2 and r2_gap < 0.05:
-    st.success("✅ Model generalizes well — small train/test gap.")
+    st.success("Model generalizes well — small train/test gap.")
 elif mae_gap < 4:
     st.warning("⚠️ Slight overfitting detected (moderate gap).")
 else:
     st.error("❌ Potential overfitting — large gap between train and test.")
-
-# ── precision parameter ──────────────────────────────────────────────
-st.markdown("---")
-with st.expander("🔬 Precision parameter (φ)"):
-    st.markdown(
-        f"""
-        The estimated precision is **φ = {art['precision']:.2f}**.
-
-        In Beta Regression, φ controls the **variance** of the predicted
-        distribution — higher φ means tighter, more confident predictions
-        around the conditional mean.
-        """
-    )
-    
