@@ -136,7 +136,7 @@ Because the model uses a logit link, contributions are additive on the log-odds 
 3.  **[Finding 3 - A model insight or statistical inference.]**
 
 ## Links to Final Deliverables
-* **Interactive Tableau Dashboard:** [PASTE TABLEAU PUBLIC LINK HERE]
+* **Interactive Tableau Dashboard:** [Click Here](https://public.tableau.com/app/profile/thierno.barry7757/viz/NYCCollegeandCareerReadinessDashboard/Overview?publish=yes)
 * **Local Streamlit Application:** Run instructions: `streamlit run deployment/app.py`
 * **Technical Report (PDF):** [Link to `deliverables/Deliverable_Report.pdf`]
 
