@@ -1,7 +1,7 @@
 # Data Slayer Corps: Closing NYC’s College Readiness Gap
 
 ## Critical Research Question (CRQ)
-> **To what extent do a high school’s Economic Need Index (ENI) and Percent of Students in Temporary Housing predict the Readiness-Gap (percentage difference between high school graduation & College and Career Readiness) for specific demographic subgroups, and which schools serve as "positive outliers" by defying these systemic predictors?**
+> **To what extent do a high school’s Economic Need Index (ENI) and Percent of Students in Temporary Housing predicts its College and Career Readiness (CCR), how do these environmental stressors impact specific demographic subgroups within the same schools,and which schools serve as "positive outliers" by defying these systemic predictors?**
 
 ## Key Actionable Recommendations
 * **Recommendation 1 (Policy):** The NYC DOE should direct supplemental CCR funding to schools in the top ENI quartile (≥ 0.85), where a single standard-deviation increase in economic need is associated with a **−16.4 point drop** in college readiness. Priority should be given to schools with co-occurring housing instability (≥ 5 % temporary housing) such as (**schools example**), which compounds the poverty effect by an additional **−4.6 points**.
