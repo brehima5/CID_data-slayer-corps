@@ -148,13 +148,13 @@ Because the model uses a logit link, contributions are additive on the log-odds 
 
 ## Data Source Attribution 
 
-We acknowledge and appreciate the work of [Author/Organization Name] in making this data publicly available under the [License Type] license.
+We acknowledge and appreciate the work of the New York City Department of Education (NYC DOE) in making this data publicly available through the InfoHub School Quality Reports: Citywide Results portal. The data are published for public use to support transparency and community engagement in understanding school performance and quality in New York City.
 
 ## Contributor and Roles 
 
-* (Fellow name one: Role X)[Link to LinkedIn]
-* (Fellow name two: Role Y)[Link to LinkedIn]
-* (Fellow name three: Role Z)[Link to LinkedIn]
+* (Thierno Barry: Role X)[Link to LinkedIn]
+* (Rolando Mancilla-Rojas: Role Y)[Link to LinkedIn]
+* (Adebola Odutola: Role Z)[Link to LinkedIn]
 
 ## Recommended Tree Structure (Revise for Final Project)
 ```pyton
